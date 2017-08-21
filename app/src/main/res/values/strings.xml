@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CNE-shop</string>
+
+    <string name="tab_home">主页</string>
+    <string name="tab_search">热点</string>
+    <string name="tab_assort">分类</string>
+    <string name="tab_cart">购物车</string>
+    <string name="tab_mine">我的</string>
+
+    <string name="title_promote">推荐</string>
+    <string name="title_scare_buying">抢购</string>
+
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_selected="true" android:drawable="@mipmap/icon_cartfill_press"/>
+    <item android:state_focused="true" android:drawable="@mipmap/icon_cartfill_press"/>
+
+    <item android:state_selected="false" android:drawable="@mipmap/icon_cart"/>
+    <item android:state_focused="false" android:drawable="@mipmap/icon_cart"/>
+
+</selector>

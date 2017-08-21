@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\博\.android\build-cache\89558187461befede29a9ead98f5f63dd92b73c5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="92646a6233823f85c3179982a8b5f5cd6c40ea75">
+        <dex dex="D:\android\CNE-shop\app\build\intermediates\pre-dexed\debug\classes_263c0625a17478e4a52909c32729bede16592893.jar" />
+    </item>
+
+</items>
