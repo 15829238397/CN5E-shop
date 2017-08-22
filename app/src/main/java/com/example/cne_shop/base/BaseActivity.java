@@ -7,7 +7,8 @@ import android.os.Handler;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 
-import com.example.androidlibrary.ButterKnife.ButterKnife;
+import butterknife.ButterKnife;
+
 
 /**
  * Created by 博 on 2017/8/21.

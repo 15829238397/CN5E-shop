@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="spots-dialog-0.7">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/1023288f009c857b5c5434232eb2deda1da67eb9/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/1023288f009c857b5c5434232eb2deda1da67eb9/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.d-max/spots-dialog/0.7/ef4e3860bef9c4cdd850c0a9f2020dd270c63598/spots-dialog-0.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CnToolbar">
+
+        <attr name="rightButtonText" format="reference|string"/>
+        <attr name="leftButtonIcon" format="reference"/>
+        <attr name="rightImageButtonIcon" format="reference" />
+        <attr name="userPhotoIcon" format="reference"/>
+        <attr name="userName" format="reference|string"/>
+
+        <attr name="isShowSearchView" format="boolean"/>
+
+    </declare-styleable>
+
+</resources>

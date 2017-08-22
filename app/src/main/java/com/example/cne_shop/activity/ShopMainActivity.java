@@ -8,7 +8,6 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.androidlibrary.ButterKnife.BindView;
 import com.example.cne_shop.R;
 import com.example.cne_shop.base.BaseActivity;
 import com.example.cne_shop.bean.TabIndicator;
@@ -20,6 +19,8 @@ import com.example.cne_shop.fragment.MineFragment;
 
 import java.util.ArrayList;
 
+import butterknife.BindView;
+
 /**
  * Created by 博 on 2017/8/21.
  */
@@ -27,7 +28,7 @@ import java.util.ArrayList;
 public class ShopMainActivity extends BaseActivity {
 
     @BindView(R.id.tabHost)
-    private FragmentTabHost fragmentTabHost ;
+    FragmentTabHost fragmentTabHost ;
     private ImageView tabPhoto ;
     private TextView tabTitle ;
     private static String TAG = ShopMainActivity.class.getName() ;

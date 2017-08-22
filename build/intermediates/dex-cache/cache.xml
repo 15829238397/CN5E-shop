@@ -3,6 +3,60 @@
 
     <item
         is-multidex="false"
+        jar="C:\Users\博\.gradle\caches\modules-2\files-2.1\com.google.auto\auto-common\0.8\c6f7af0e57b9d69d81b05434ef9f3c5610d498c4\auto-common-0.8.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c6f7af0e57b9d69d81b05434ef9f3c5610d498c4">
+        <dex dex="D:\android\CN5E-shop\app\build\intermediates\pre-dexed\debug\auto-common-0.8_92bada9d94d448011f49f657b58ec7e419df0d2e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\博\.gradle\caches\modules-2\files-2.1\com.squareup\javapoet\1.9.0\ecc5cf9c221d55481163e773b24336db149e51\javapoet-1.9.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="00ecc5cf9c221d55481163e773b24336db149e51">
+        <dex dex="D:\android\CN5E-shop\app\build\intermediates\pre-dexed\debug\javapoet-1.9.0_e1e5eb5d30035a3b125dcdeb53a34518b1ae293e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\博\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-compiler\8.8.1\b2f4505a1babb7b7c11abbbf8ea4c90b18c3aeac\butterknife-compiler-8.8.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b2f4505a1babb7b7c11abbbf8ea4c90b18c3aeac">
+        <dex dex="D:\android\CN5E-shop\app\build\intermediates\pre-dexed\debug\butterknife-compiler-8.8.1_4e34563ba0d01602498eba52580b63b32b3c622b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\博\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\19.0\6ce200f6b23222af3d8abb6b6459e6c44f4bb0e9\guava-19.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ce200f6b23222af3d8abb6b6459e6c44f4bb0e9">
+        <dex dex="D:\android\CN5E-shop\app\build\intermediates\pre-dexed\debug\guava-19.0_0804d60339a446fa44204b33755fbcbf2dfcc166.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\博\.android\build-cache\26d69b99b920fd7e8f98aca5d27372e26a9b7d36\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6a2bcb61342d09fe9acf55c9daf63961c8866cc0">
+        <dex dex="D:\android\CN5E-shop\app\build\intermediates\pre-dexed\debug\classes_91a487e988aef7ad1f000eb86ba8546e73bcd8d3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\博\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.8.1\bc373fb6bc7bca3035041b924f158fd2b946ee8d\butterknife-annotations-8.8.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bc373fb6bc7bca3035041b924f158fd2b946ee8d">
+        <dex dex="D:\android\CN5E-shop\app\build\intermediates\pre-dexed\debug\butterknife-annotations-8.8.1_5f92b971b6eb6454d597aa6d6e4ca77652d7d933.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\博\.android\build-cache\89558187461befede29a9ead98f5f63dd92b73c5\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"

@@ -10,6 +10,7 @@ import com.example.cne_shop.base.BaseFragment;
  */
 
 public class HotFragment extends BaseFragment {
+
     @Override
     protected int getResRootViewId() {
         return R.layout.hot_main_fragment;
