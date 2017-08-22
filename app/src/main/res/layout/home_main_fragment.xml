@@ -15,10 +15,10 @@
         app:isShowSearchView="true"
         ></com.example.cne_shop.widget.CnToolbar>
 
-    <TextView
+    <com.daimajia.slider.library.SliderLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="homeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
-        android:textSize="30sp" />
+        android:layout_height="100dp"
+        android:id="@+id/slider">
+    </com.daimajia.slider.library.SliderLayout>
 
 </LinearLayout>

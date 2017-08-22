@@ -44,6 +44,7 @@ public class OkhttpHelper {
         client.setReadTimeout(5 , TimeUnit.SECONDS);
 
         gson = new Gson() ;
+        handler = new Handler() ;
     }
 
     //提供一个静态方法供外部请求。
@@ -84,11 +85,11 @@ public class OkhttpHelper {
                     String jqury = response.body().string() ;
 
                     if (callback.type == String.class){
-                        callback.callBackSucces(response , jqury);
+                        callbackSuccess( callback , response , null );
                     }else {
                         try{
                             Object object = gson.fromJson(jqury , callback.type) ;
-                            callbackSuccess(callback , response , jqury);
+                            callbackSuccess(callback , response , object);
                         }catch (Exception e){
                             callbackError(callback , response , null);
                             throw new GSON_ANALYZE_MESSAGE_FAILURE("gson解析信息失败") ;

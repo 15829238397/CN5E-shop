@@ -101,9 +101,11 @@
     <orderEntry type="library" exported="" name="gson-2.8.1" level="project" />
     <orderEntry type="library" exported="" name="constraint-layout-1.0.2" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="hamcrest-library-1.3" level="project" />
+    <orderEntry type="library" exported="" name="picasso-2.3.2" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="hamcrest-integration-1.3" level="project" />
     <orderEntry type="library" exported="" name="javapoet-1.9.0" level="project" />
     <orderEntry type="library" exported="" name="support-core-ui-25.3.1" level="project" />
+    <orderEntry type="library" exported="" name="library-1.1.5" level="project" />
     <orderEntry type="library" exported="" name="auto-common-0.8" level="project" />
     <orderEntry type="library" exported="" name="butterknife-compiler-8.8.1" level="project" />
     <orderEntry type="library" exported="" name="glide-3.5.2" level="project" />
@@ -113,6 +115,7 @@
     <orderEntry type="library" exported="" name="butterknife-annotations-8.8.1" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="espresso-core-2.2.2" level="project" />
     <orderEntry type="library" exported="" name="guava-19.0" level="project" />
+    <orderEntry type="library" exported="" name="library-2.4.0" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="exposed-instrumentation-api-publish-0.5" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="rules-0.5" level="project" />
     <orderEntry type="library" exported="" name="constraint-layout-solver-1.0.2" level="project" />

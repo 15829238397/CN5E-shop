@@ -17,10 +17,8 @@ import dmax.dialog.SpotsDialog;
 public abstract class loadingSpotsDialog<T> extends BaseCallback<T> {
 
     private SpotsDialog spotsDialog ;
-    private Context mContext ;
 
     public loadingSpotsDialog(Context context){
-        this.mContext = context ;
         spotsDialog = new SpotsDialog(context) ;
     }
 

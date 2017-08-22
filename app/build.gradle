@@ -36,4 +36,9 @@ dependencies {
     compile 'com.squareup.okhttp:okhttp-urlconnection:2.7.5'
     compile 'com.squareup.okhttp:okhttp:2.7.5'
     compile 'com.github.d-max:spots-dialog:0.7'
+    //依赖开源的轮播大图控件
+    compile 'com.daimajia.slider:library:1.1.5@aar'
+    compile 'com.squareup.picasso:picasso:2.3.2'
+    //属性动画的兼容包
+    compile 'com.nineoldandroids:library:2.4.0'
 }
