@@ -19,7 +19,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/cardView_title"
-            android:text="热门活动"
+            android:text="@string/tex_hot"
             android:textSize="20dp"
             android:textColor="@color/black"
             android:paddingTop="10dp"/>

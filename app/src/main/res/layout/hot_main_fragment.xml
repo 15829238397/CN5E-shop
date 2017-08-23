@@ -12,7 +12,7 @@
         android:minHeight="?attr/actionBarSize"
         android:minWidth="?attr/actionBarSize"
         android:background="?attr/colorPrimary"
-        app:title="热点"
+        app:title="@string/tab_hot"
         android:titleTextColor="@color/white"
         app:isShowSearchView="false"
         ></com.example.cne_shop.widget.CnToolbar>

@@ -12,12 +12,11 @@
         android:minHeight="?attr/actionBarSize"
         android:minWidth="?attr/actionBarSize"
         android:background="?attr/colorPrimary"
-        app:title="分类"
+        app:title="@string/tab_assort"
         android:titleTextColor="@color/white"
         app:isShowSearchView="false"
 
         ></com.example.cne_shop.widget.CnToolbar>
-
 
     <LinearLayout
         android:orientation="horizontal"
@@ -28,8 +27,8 @@
         <android.support.v7.widget.RecyclerView
             android:layout_width="@dimen/classify_layout_width"
             android:layout_height="match_parent"
-            android:id="@+id/classfyRecylerView"
-            android:background="@color/colorWhite">
+            android:id="@+id/ass_first_recyclerview"
+            android:background="@color/white">
 
         </android.support.v7.widget.RecyclerView>
 
@@ -42,7 +41,7 @@
             <com.daimajia.slider.library.SliderLayout
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/classify_Slider_height"
-                android:id="@+id/classfySlidLayout">
+                android:id="@+id/slidLayout">
 
             </com.daimajia.slider.library.SliderLayout>
 
@@ -54,7 +53,7 @@
                 <android.support.v7.widget.RecyclerView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:id="@+id/classfyDataRecylerView">
+                    android:id="@+id/ass_show_recyclerview">
 
                 </android.support.v7.widget.RecyclerView>
 
@@ -64,5 +63,6 @@
 
 
     </LinearLayout>
+
 
 </LinearLayout>

@@ -1,13 +1,25 @@
 <resources>
     <string name="app_name">CNE-shop</string>
 
+    <string name="text">测试数据</string>
+
     <string name="tab_home">主页</string>
-    <string name="tab_search">热点</string>
+    <string name="tab_hot">热点</string>
     <string name="tab_assort">分类</string>
     <string name="tab_cart">购物车</string>
     <string name="tab_mine">我的</string>
 
     <string name="title_promote">推荐</string>
     <string name="title_scare_buying">抢购</string>
+    <string name="tex_hot">热门活动</string>
+    <string name="tex_search">请输入搜索的商品</string>
 
+    <string name="page_ref">刷新</string>
+    <string name="page_loadmore">加载更多</string>
+    <string name="page_notmore">已经到底啦</string>
+
+    <string name="tex_login">点击登录</string>
+    <string name="but_buy">点击购买</string>
+
+    <string name="but_ited">编辑</string>
 </resources>

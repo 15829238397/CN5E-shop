@@ -15,7 +15,7 @@
         android:titleTextColor="@color/white"
         app:isShowSearchView="false"
         app:userPhotoIcon="@drawable/default_head"
-        app:userName="点击登录"
+        app:userName="@string/tex_login"
 
         ></com.example.cne_shop.widget.CnToolbar>
 

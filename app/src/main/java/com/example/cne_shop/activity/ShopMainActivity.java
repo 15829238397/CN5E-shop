@@ -61,7 +61,7 @@ public class ShopMainActivity extends BaseActivity {
         fragmentTabHost.setup(this , getSupportFragmentManager() , R.id.realTabContent);
 
         TabIndicator HomeTab = new TabIndicator(R.string.tab_home , R.drawable.tab_home_image, HomeFragment.class) ;
-        TabIndicator SearchTab = new TabIndicator(R.string.tab_search , R.drawable.tab_search_image, HotFragment.class) ;
+        TabIndicator SearchTab = new TabIndicator(R.string.tab_hot , R.drawable.tab_search_image, HotFragment.class) ;
         TabIndicator ClassifyTab = new TabIndicator(R.string.tab_assort , R.drawable.tab_classify_image, AssortFragment.class) ;
         TabIndicator ShoppingBikeTab = new TabIndicator(R.string.tab_cart , R.drawable.tab_shoppingbike_image, CartFragment.class) ;
         TabIndicator MineTab = new TabIndicator(R.string.tab_mine , R.drawable.tab_user_image, MineFragment.class) ;

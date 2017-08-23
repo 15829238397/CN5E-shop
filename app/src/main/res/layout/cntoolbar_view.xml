@@ -16,7 +16,6 @@
         android:gravity="center"
         android:textColor="@color/white"
         android:id="@+id/tb_title"
-        android:text="测试数据"
         android:textSize="20sp"
         android:visibility="gone"
         android:layout_centerVertical="true"
@@ -30,7 +29,7 @@
         android:layout_centerInParent="true"
         android:gravity="center"
         android:layout_marginRight="30dp"
-        android:hint="请输入搜索的商品"
+        android:hint="@string/tex_search"
         android:textColorHint="@color/white"
         android:textColor="@color/white"
         android:drawableLeft="@android:drawable/ic_menu_search"
@@ -50,7 +49,7 @@
         android:textSize="15sp"
         android:gravity="center_vertical|right"
         android:textColor="@color/white"
-        android:text="编辑"
+        android:text="@string/but_ited"
         android:background="?attr/colorPrimary"
         android:visibility="gone"
         />
@@ -103,7 +102,7 @@
         android:layout_below="@+id/tb_user_photo"
         android:textColor="@color/white"
         android:gravity="center_horizontal|center_vertical"
-        android:text="点击登录"
+        android:text="@string/tex_login"
         android:visibility="gone"
         android:paddingBottom="10dp"/>
 

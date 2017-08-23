@@ -5,6 +5,7 @@ import android.widget.Toast;
 
 import com.cjj.MaterialRefreshLayout;
 import com.cjj.MaterialRefreshListener;
+import com.example.cne_shop.R;
 import com.example.cne_shop.bean.Page;
 import com.example.cne_shop.bean.Ware;
 import com.example.cne_shop.okhttp.OkhttpHelper;
@@ -60,7 +61,7 @@ public class Pager {
             @Override
             public void onRefresh(MaterialRefreshLayout materialRefreshLayout) {
 
-                Toast.makeText(materialRefreshLayout.getContext() , "刷新" , Toast.LENGTH_SHORT).show();
+                Toast.makeText(materialRefreshLayout.getContext() , materialRefreshLayout.getContext().getString(R.string.page_ref) , Toast.LENGTH_SHORT).show();
                 freshData() ;
             }
 
@@ -68,11 +69,11 @@ public class Pager {
             public void onRefreshLoadMore(MaterialRefreshLayout materialRefreshLayout) {
 
                 if( builder.curPage*builder.pageSize < builder.totalCount ){
-                    Toast.makeText(materialRefreshLayout.getContext() , "加载更多" , Toast.LENGTH_SHORT).show();
+                    Toast.makeText(materialRefreshLayout.getContext() , materialRefreshLayout.getContext().getString(R.string.page_loadmore) , Toast.LENGTH_SHORT).show();
                     loadMore() ;
                 }else {
                     materialRefreshLayout.finishRefreshLoadMore();
-                    Toast.makeText(materialRefreshLayout.getContext() , "已经到底啦" , Toast.LENGTH_SHORT).show();
+                    Toast.makeText(materialRefreshLayout.getContext() , materialRefreshLayout.getContext().getString(R.string.page_notmore) , Toast.LENGTH_SHORT).show();
                 }
             }
         });

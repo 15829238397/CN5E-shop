@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingRight="5dp"
+    android:paddingLeft="5dp"
+    android:id="@+id/wareGridShow"
+    android:background="@color/white">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/hotGoodsImg"
+        fresco:actualImageScaleType="focusCrop"
+        fresco:fadeDuration="3000"
+        fresco:failureImage="@mipmap/ic_launcher"
+        fresco:failureImageScaleType="centerInside"
+        fresco:placeholderImage="@mipmap/ic_launcher"
+        fresco:placeholderImageScaleType="fitCenter"
+        fresco:progressBarAutoRotateInterval="1000"
+        fresco:progressBarImage="@mipmap/ic_launcher"
+        fresco:progressBarImageScaleType="centerInside"
+        fresco:retryImage="@mipmap/ic_launcher"
+        fresco:retryImageScaleType="centerCrop"
+        fresco:roundAsCircle="false"
+        fresco:viewAspectRatio="1.6"
+        android:layout_centerHorizontal="true"
+        android:paddingRight="3dp"
+        />
+
+    <TextView
+        android:id="@+id/hotGoodsDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hotGoodsImg"
+        android:text="快捷回复拉夫拉进来就爱了政法开讲啦减肥啦FA法萨芬撒法萨芬撒广东省干啥干啥干啥新股申购时光隧道公司想不到发布的发布的发布的发布"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/hotGoodsPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hotGoodsDescription"
+        android:layout_gravity="right"
+        android:gravity="right"
+        android:text="村上春树"
+        android:textColor="@color/red"
+        android:textSize="12sp" />
+
+</RelativeLayout>

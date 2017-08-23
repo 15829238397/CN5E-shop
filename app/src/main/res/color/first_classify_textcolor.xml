@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:color="@color/cardview_dark_background" android:state_selected="true"/>
+
+    <item android:color="@color/cardview_shadow_start_color" android:state_selected="false"/>
+
+</selector>
