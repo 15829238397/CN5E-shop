@@ -17,12 +17,15 @@
         app:isShowSearchView="false"
         ></com.example.cne_shop.widget.CnToolbar>
 
-    <TextView
+    <com.cjj.MaterialRefreshLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="hotttttttttttttttttttttttttttttttttttttt"
-        android:textSize="30sp"
-        android:background="@color/white"
-        />
+        android:layout_height="match_parent"
+        android:id="@+id/materialRefreshLayout">
 
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/resyclerView"></android.support.v7.widget.RecyclerView>
+
+    </com.cjj.MaterialRefreshLayout>
 </LinearLayout>

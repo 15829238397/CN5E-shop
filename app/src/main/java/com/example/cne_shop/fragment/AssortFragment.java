@@ -17,7 +17,7 @@ public class AssortFragment extends BaseFragment {
     }
 
     @Override
-    protected void init(View view) {
+    protected void init() {
 
     }
 }

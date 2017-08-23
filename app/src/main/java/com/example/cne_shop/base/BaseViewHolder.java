@@ -9,6 +9,8 @@ import android.widget.ImageView;
 import android.widget.RadioButton;
 import android.widget.TextView;
 
+import com.facebook.drawee.view.SimpleDraweeView;
+
 
 /**
  * Created by 博 on 2017/7/12.
@@ -36,9 +38,9 @@ public class BaseViewHolder extends RecyclerView.ViewHolder implements View.OnCl
      * 暴露给外界的方法用来获得view实例
      */
 
-//    public SimpleDraweeView findSimpleDraweeView(int resId){
-//        return findView(resId) ;
-//    }
+    public SimpleDraweeView findSimpleDraweeView(int resId){
+        return findView(resId) ;
+    }
 
     public ImageView findImageView(int resId){
         return findView(resId) ;

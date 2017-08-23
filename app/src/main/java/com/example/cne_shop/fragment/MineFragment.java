@@ -24,7 +24,7 @@ public class MineFragment extends BaseFragment {
 
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
-    protected void init( View view) {
+    protected void init( ) {
 
     }
 

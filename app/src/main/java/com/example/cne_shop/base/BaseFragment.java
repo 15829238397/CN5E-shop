@@ -18,19 +18,20 @@ import butterknife.ButterKnife;
 public abstract class BaseFragment extends Fragment {
 
     protected Context mContext ;
+    protected View mView ;
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         int resRootViewId =  getResRootViewId () ;
-        View view = inflater.inflate(resRootViewId , null , false) ;
+        mView = inflater.inflate(resRootViewId , container , false) ;
         mContext = this.getContext() ;
-        init(view);
+        init();
 
-        return view ;
+        return mView ;
     }
 
     protected abstract int getResRootViewId() ;
-    protected abstract void init(View view) ;
+    protected abstract void init() ;
 
 }

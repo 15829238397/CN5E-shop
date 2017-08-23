@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="classify_layout_width">80dp</dimen>
+    <dimen name="classify_Slider_height">100dp</dimen>
+
+</resources>

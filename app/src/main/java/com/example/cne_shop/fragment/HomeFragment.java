@@ -41,7 +41,6 @@ public class HomeFragment extends BaseFragment {
 
     private  CnToolbar cnToolbar ;
     private  SliderLayout sliderLayout ;
-    private  View mView ;
     private  RecyclerView recyclerView ;
     private List<ResyslerViewIndicator> mData;
 
@@ -51,8 +50,7 @@ public class HomeFragment extends BaseFragment {
     }
 
     @Override
-    protected void init(View view) {
-        mView = view ;
+    protected void init() {
         cnToolbar = (CnToolbar) mView.findViewById(R.id.toolBar);
         initSlider() ;
         initRecyclerView() ;

@@ -19,10 +19,50 @@
         ></com.example.cne_shop.widget.CnToolbar>
 
 
-    <TextView
+    <LinearLayout
+        android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="assortttttttttttttttttttttttttttttttttttttttttttttt"
-        android:textSize="30sp" />
+        android:layout_height="match_parent"
+        >
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="@dimen/classify_layout_width"
+            android:layout_height="match_parent"
+            android:id="@+id/classfyRecylerView"
+            android:background="@color/colorWhite">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <com.daimajia.slider.library.SliderLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/classify_Slider_height"
+                android:id="@+id/classfySlidLayout">
+
+            </com.daimajia.slider.library.SliderLayout>
+
+            <com.cjj.MaterialRefreshLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/materialRefreshLayout">
+
+                <android.support.v7.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/classfyDataRecylerView">
+
+                </android.support.v7.widget.RecyclerView>
+
+            </com.cjj.MaterialRefreshLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
 
 </LinearLayout>
