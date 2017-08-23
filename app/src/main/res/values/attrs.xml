@@ -13,4 +13,16 @@
 
     </declare-styleable>
 
+    <declare-styleable name="NumControlerView">
+
+        <attr name="value" format="reference|integer"/>
+        <attr name="minValue" format="reference|integer"/>
+        <attr name="maxValue" format="reference|integer"/>
+
+        <attr name="subButtonBackground" format="reference"/>
+        <attr name="addButtonBackground" format="reference"/>
+        <attr name="numTextBackGround" format="reference"/>
+
+    </declare-styleable>
+
 </resources>
