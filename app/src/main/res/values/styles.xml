@@ -14,6 +14,30 @@
         <item name="colorAccent">@color/white</item>
     </style>
 
+    <style name="line" parent="line">
+        <item name="android:background">@color/white</item>
+    </style>
+    <style name="line_vertical" parent="line_vertical">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+    </style>
+
+    <style name="line_max_vertical" parent="line_vertical">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">20dp</item>
+    </style>
+
+    <style name="line_mid_vertical" parent="line_vertical">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">5dp</item>
+    </style>
+
+    <style name="line_horizontal" parent="line_horizontal">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
 
 
 </resources>

@@ -1,6 +1,9 @@
 package com.example.cne_shop.fragment;
 
 
+import android.animation.ObjectAnimator;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.View;
 
@@ -9,12 +12,16 @@ import com.daimajia.slider.library.SliderLayout;
 import com.daimajia.slider.library.SliderTypes.BaseSliderView;
 import com.daimajia.slider.library.SliderTypes.TextSliderView;
 import com.example.cne_shop.R;
+import com.example.cne_shop.adapter.HomeAdapter;
+import com.example.cne_shop.base.BaseAdapter;
 import com.example.cne_shop.base.BaseFragment;
+import com.example.cne_shop.base.ResyslerViewIndicator;
 import com.example.cne_shop.bean.SliderIndicator;
 import com.example.cne_shop.contents.Contents;
 import com.example.cne_shop.okhttp.OkhttpHelper;
 import com.example.cne_shop.okhttp.loadingSpotsDialog;
 import com.example.cne_shop.widget.CnToolbar;
+import com.example.cne_shop.widget.MyDivider;
 import com.squareup.okhttp.Request;
 import com.squareup.okhttp.Response;
 
@@ -32,9 +39,11 @@ import butterknife.BindView;
 
 public class HomeFragment extends BaseFragment {
 
-    CnToolbar cnToolbar ;
-    SliderLayout sliderLayout ;
-    View mView ;
+    private  CnToolbar cnToolbar ;
+    private  SliderLayout sliderLayout ;
+    private  View mView ;
+    private  RecyclerView recyclerView ;
+    private List<ResyslerViewIndicator> mData;
 
     @Override
     protected int getResRootViewId() {
@@ -46,6 +55,72 @@ public class HomeFragment extends BaseFragment {
         mView = view ;
         cnToolbar = (CnToolbar) mView.findViewById(R.id.toolBar);
         initSlider() ;
+        initRecyclerView() ;
+    }
+
+    public void initRecyclerView() {
+
+        recyclerView = (RecyclerView) mView.findViewById(R.id.resyclerView) ;
+        OkhttpHelper okhttpHelper = OkhttpHelper.getOkhttpHelper();
+
+        okhttpHelper.doGet(Contents.API.RECOMMEND, new loadingSpotsDialog<List<ResyslerViewIndicator>>(this.getContext()) {
+            @Override
+            public void onFailure(Request request, IOException e) {
+                Log.e("发送请求数据异常", "---------->" + e);
+                this.closeSpotsDialog();
+            }
+
+            @Override
+            public void onErroe(Response response, int responseCode, Exception e) throws IOException {
+                this.closeSpotsDialog();
+                Log.e("接收数据异常", "---------->" + e);
+            }
+
+            @Override
+            public void callBackSucces(Response response, List<ResyslerViewIndicator> resyslerViewIndicators) throws IOException {
+                this.closeSpotsDialog();
+                mData = resyslerViewIndicators;
+                HomeAdapter myAdapter = new HomeAdapter(getContext(), mData);
+                if (recyclerView == null) {
+                    Log.d("确实为空", "--------------------------------------------------");
+                }
+                recyclerView.setAdapter(myAdapter);
+                recyclerView.setLayoutManager(new LinearLayoutManager(HomeFragment.this.getContext()));
+                recyclerView.addItemDecoration(new MyDivider());
+
+//                myAdapter.setOnItemClickListener(new BaseAdapter.onItemClickListener() {
+//                    @Override
+//                    public void onClick(View view, int position) {
+//                        Intent intent = new Intent(getContext() , WareListActivity.class) ;
+//                        switch (view.getId()) {
+//                            case R.id.imageview_big:
+//                                doAnimation(view) ;
+//                                intent.putExtra("campaignId" , mData.get(position).getCpOne().getId()) ;
+//                                startActivity(intent);
+//                                break;
+//
+//                            case R.id.imageview_small_top:
+//                                doAnimation(view) ;
+//                                intent.putExtra("campaignId" , mData.get(position).getCpThree().getId()) ;
+//                                startActivity(intent);
+//                                break;
+//
+//                            case R.id.imageview_small_bottom:
+//                                doAnimation(view) ;
+//                                intent.putExtra("campaignId" , mData.get(position).getCpTwo().getId()) ;
+//                                startActivity(intent);
+//                                break;
+//                        }
+//                    }
+//                });
+            }
+        } );}
+
+    public void doAnimation(View view){
+
+        ObjectAnimator objectAnimator = ObjectAnimator.ofFloat(view , "rotationX" ,0 , 360) ;
+        objectAnimator.start();
+
     }
 
     public List<SliderIndicator> getWoringWebConectList(){
