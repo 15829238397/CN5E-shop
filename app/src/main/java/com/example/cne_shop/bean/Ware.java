@@ -72,18 +72,18 @@ public class Ware implements Serializable{
         this.price = price;
     }
 
-//    public ShoppingCart toShoppinfCart(){
-//
-//        ShoppingCart cart = new ShoppingCart() ;
-//
-//        cart.setId(this.id);
-//        cart.setCount(1);
-//        cart.setChecked(true);
-//        cart.setImgUrl(this.imgUrl);
-//        cart.setName(this.name);
-//        cart.setPrice(this.price);
-//
-//        return cart ;
-//    }
+    public ShoppingCart toShoppinfCart(){
+
+        ShoppingCart cart = new ShoppingCart() ;
+
+        cart.setId(this.id);
+        cart.setCount(1);
+        cart.setChecked(true);
+        cart.setImgUrl(this.imgUrl);
+        cart.setName(this.name);
+        cart.setPrice(this.price);
+
+        return cart ;
+    }
 
 }
