@@ -1,11 +1,13 @@
 package com.example.cne_shop.activity;
 
 
+import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTabHost;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.TabHost;
 import android.widget.TextView;
 
 import com.example.cne_shop.R;
@@ -31,6 +33,7 @@ public class ShopMainActivity extends BaseActivity {
     FragmentTabHost fragmentTabHost ;
     private ImageView tabPhoto ;
     private TextView tabTitle ;
+    private CartFragment cartFragment ;
     private static String TAG = ShopMainActivity.class.getName() ;
 
     private ArrayList<TabIndicator> tabIndicators = new ArrayList<>() ;
@@ -85,6 +88,27 @@ public class ShopMainActivity extends BaseActivity {
             fragmentTabHost.addTab(fragmentTabHost.newTabSpec(getString(tabIndicator.getTabTitle())).setIndicator(view) , tabIndicator.getFragment() , null );
             //执行结束
         }
+
+        fragmentTabHost.setOnTabChangedListener(new TabHost.OnTabChangeListener() {
+            @Override
+            public void onTabChanged(String tabId) {
+
+                if(tabId == getString(R.string.tab_cart)){
+
+                    if (cartFragment == null){
+
+                        Fragment fragment = getSupportFragmentManager().findFragmentByTag(getString(R.string.tab_cart)) ;
+
+                        if (fragment != null ){
+                            cartFragment = (CartFragment) fragment;
+                            cartFragment.refRecyclerView();
+                        }
+                    }else {
+                        cartFragment.refRecyclerView();
+                    }
+                }
+            }
+        });
 
     }
 

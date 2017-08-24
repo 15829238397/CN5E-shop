@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingRight="5dp"
+        android:paddingTop="10dp"
+        android:paddingLeft="5dp">
+
+        <CheckBox
+            android:id="@+id/checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+
+            style="@style/CustomCheckboxTheme"/>
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_toRightOf="@+id/checkbox"
+            android:id="@+id/wareImg"
+            android:layout_centerVertical="true"
+            android:paddingRight="5dp"
+            />
+
+        <TextView
+
+            android:id="@+id/wareDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/wareImg"
+
+            android:text="cacasckajkchaskjcbkabskjcabjskbckjabcjkbaskcbasj"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/warePrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/wareDescription"
+            android:layout_gravity="right"
+            android:layout_toRightOf="@+id/wareImg"
+            android:text="365"
+            android:gravity="right"
+            android:textColor="@color/red" />
+
+        <com.example.cne_shop.widget.NumControlerView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:addButtonBackground="@color/white"
+            app:subButtonBackground="@color/white"
+            app:numTextBackGround="@color/white"
+            app:maxValue="20"
+            app:minValue="1"
+            app:value="1"
+            android:id="@+id/num"
+
+            android:layout_below="@+id/warePrice"
+            android:layout_toRightOf="@+id/wareImg"
+             />
+
+    </RelativeLayout>
+
+</LinearLayout>

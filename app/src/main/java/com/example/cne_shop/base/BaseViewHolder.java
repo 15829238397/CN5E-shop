@@ -9,6 +9,7 @@ import android.widget.ImageView;
 import android.widget.RadioButton;
 import android.widget.TextView;
 
+import com.example.cne_shop.widget.NumControlerView;
 import com.facebook.drawee.view.SimpleDraweeView;
 
 
@@ -64,7 +65,7 @@ public class BaseViewHolder extends RecyclerView.ViewHolder implements View.OnCl
 
     public CheckBox findCheckBox(int resId) {return findView(resId) ; }
 
-//    public NumControlerView findNumControlerView(int resId) {return findView(resId) ;}
+    public NumControlerView findNumControlerView(int resId) {return findView(resId) ;}
 
     //获得view实例对象。在views里查找，如果存在，直接返回，如果不存在实例化一个，并将实例化结果返回。
     private < T extends View> T findView (int resId){

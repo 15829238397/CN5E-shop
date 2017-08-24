@@ -18,10 +18,76 @@
         app:rightButtonText="编辑"
         ></com.example.cne_shop.widget.CnToolbar>
 
-    <TextView
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="cart"
-        android:textSize="30sp" />
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/sumPart"
+            android:layout_alignParentTop="true"
+            android:id="@+id/recycleView">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sumPart"
+            android:layout_alignParentBottom="true"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:gravity="center_vertical"
+            android:background="@color/cardview_shadow_start_color"
+            >
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkbox_all"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:checked="true"
+                android:paddingLeft="5dp"
+                style="@style/CustomCheckboxTheme"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:paddingRight="10dp"
+                android:text="全选"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/checkbox_all"
+                android:id="@+id/allSelect"
+                />
+
+            <TextView
+                android:id="@+id/txt_total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="合计 ￥0.0"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/allSelect"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:text="去结算"
+                android:id="@+id/pay_button"
+                android:textColor="@color/white"
+                android:background="@color/red"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
 
 </LinearLayout>
