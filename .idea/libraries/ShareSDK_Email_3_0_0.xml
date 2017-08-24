@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ShareSDK-Email-3.0.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/sharesdk/libs/ShareSDK-Email-3.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

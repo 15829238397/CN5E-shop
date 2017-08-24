@@ -85,7 +85,6 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/manifests" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/pre-dexed" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/res" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/rs" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/shaders" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/symbols" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/transforms" />
@@ -149,5 +148,21 @@
     <orderEntry type="library" exported="" name="appcompat-v7-25.3.1" level="project" />
     <orderEntry type="library" exported="" name="animated-vector-drawable-25.3.1" level="project" />
     <orderEntry type="library" exported="" name="spots-dialog-0.7" level="project" />
+    <orderEntry type="module" module-name="sharesdk" exported="" />
+    <orderEntry type="library" exported="" name="ShareSDK-Email-3.0.0" level="project" />
+    <orderEntry type="library" exported="" name="ShareSDK-QZone-3.0.0" level="project" />
+    <orderEntry type="library" exported="" name="ShareSDK-ShortMessage-3.0.0" level="project" />
+    <orderEntry type="library" exported="" name="ShareSDK-QQ-3.0.0" level="project" />
+    <orderEntry type="library" exported="" name="MobTools-2017.0608.1618" level="project" />
+    <orderEntry type="library" exported="" name="ShareSDK-Wechat-Moments-3.0.0" level="project" />
+    <orderEntry type="library" exported="" name="ShareSDK-Facebook-3.0.0" level="project" />
+    <orderEntry type="library" exported="" name="MobCommons-2017.0608.1618" level="project" />
+    <orderEntry type="library" exported="" name="ShareSDK-TencentWeibo-3.0.0" level="project" />
+    <orderEntry type="library" exported="" name="ShareSDK-Wechat-Core-3.0.0" level="project" />
+    <orderEntry type="library" exported="" name="ShareSDK-Wechat-3.0.0" level="project" />
+    <orderEntry type="library" exported="" name="ShareSDK-Twitter-3.0.0" level="project" />
+    <orderEntry type="library" exported="" name="ShareSDK-SinaWeibo-3.0.0" level="project" />
+    <orderEntry type="library" exported="" name="ShareSDK-Core-3.0.0" level="project" />
+    <orderEntry type="library" exported="" name="ShareSDK-Wechat-Favorite-3.0.0" level="project" />
   </component>
 </module>

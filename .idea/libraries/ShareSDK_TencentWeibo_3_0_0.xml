@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ShareSDK-TencentWeibo-3.0.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/sharesdk/libs/ShareSDK-TencentWeibo-3.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

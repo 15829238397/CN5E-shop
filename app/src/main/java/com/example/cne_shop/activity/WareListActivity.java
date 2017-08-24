@@ -17,6 +17,7 @@ import com.example.cne_shop.R;
 import com.example.cne_shop.adapter.AssortShowAdapter;
 import com.example.cne_shop.adapter.HotAdapter;
 import com.example.cne_shop.base.BaseActivity;
+import com.example.cne_shop.base.BaseAdapter;
 import com.example.cne_shop.bean.Page;
 import com.example.cne_shop.bean.Ware;
 import com.example.cne_shop.contents.Contents;
@@ -317,40 +318,40 @@ public class WareListActivity extends BaseActivity {
 
     public void setAssotrShowAdapterItemlistenler (){
 
-//        classifyWaresAdapter.setOnItemClickListener(new BaseAdapter.onItemClickListener() {
-//            @Override
-//            public void onClick(View view, int position) {
-//
-//                Ware ware = classifyWaresAdapter.getData(position);
-//                Intent intent = new Intent(WareListActivity.this , WareDetialActivity.class);
-//                intent.putExtra(Contents.WARE , ware);
-//
-//                startActivity(intent);
-//
-//            }
-//        });
+        classifyWaresAdapter.setOnItemClickListener(new BaseAdapter.onItemClickListener() {
+            @Override
+            public void onClick(View view, int position) {
+
+                Ware ware = classifyWaresAdapter.getData(position);
+                Intent intent = new Intent(WareListActivity.this , WareDetialActivity.class);
+                intent.putExtra(Contents.WARE , ware);
+
+                startActivity(intent);
+
+            }
+        });
 
     }
 
     public void setHotAdapterItemlistenler (){
 
-//        hotAdapter.setOnItemClickListener(new BaseAdapter.onItemClickListener() {
-//            @Override
-//            public void onClick(View view, int position) {
-//
-//                if(view.getId() == R.id.buyButton){
-//                    addToCart(position) ;
-//                }else {
-//
-//                    Ware ware = hotAdapter.getData(position);
-//                    Intent intent = new Intent(WareListActivity.this , WareDetialActivity.class);
-//                    intent.putExtra(Contents.WARE , ware);
-//
-//                    startActivity(intent);
-//                }
-//
-//            }
-//        });
+        hotAdapter.setOnItemClickListener(new BaseAdapter.onItemClickListener() {
+            @Override
+            public void onClick(View view, int position) {
+
+                if(view.getId() == R.id.buyButton){
+                    addToCart(position) ;
+                }else {
+
+                    Ware ware = hotAdapter.getData(position);
+                    Intent intent = new Intent(WareListActivity.this , WareDetialActivity.class);
+                    intent.putExtra(Contents.WARE , ware);
+
+                    startActivity(intent);
+                }
+
+            }
+        });
 
     }
 
