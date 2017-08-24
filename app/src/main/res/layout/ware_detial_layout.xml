@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.shoppingstore.widget.PbToolbar
+        android:id="@+id/toolBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        android:minWidth="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:leftButtonIcon="@drawable/icon_back_32px"
+        app:title="商品详情"
+        android:titleTextColor="@color/colorWhite"
+        app:isShowSearchView="false"
+        app:rightButtonText="分享"
+        ></com.example.shoppingstore.widget.PbToolbar>
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/webView"></WebView>
+
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.cne_shop.widget.CnToolbar
+        android:id="@+id/toolBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        android:minWidth="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:leftButtonIcon="@drawable/icon_back_32px"
+        app:title="商品列表"
+        android:titleTextColor="@color/white"
+        app:isShowSearchView="false"
+        app:rightImageButtonIcon="@drawable/icon_grid_32"
+
+        ></com.example.cne_shop.widget.CnToolbar>
+
+    <android.support.design.widget.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabBackground="@color/white"
+        app:tabTextColor="@color/cardview_shadow_start_color"
+        app:tabSelectedTextColor="@color/red"
+        app:tabIndicatorColor="@color/red"
+
+        app:tabGravity="fill"
+        android:id="@+id/show_wares_tab">
+
+    </android.support.design.widget.TabLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:background="@color/material_yellow">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/show_wares_num"
+            android:textColor="@color/cardview_shadow_start_color"
+            android:text="共有25件商品"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/show_wares_layout"
+        android:orientation="vertical">
+
+        <com.cjj.MaterialRefreshLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/materialRefreshLayout">
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/recycleListView"></android.support.v7.widget.RecyclerView>
+
+        </com.cjj.MaterialRefreshLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

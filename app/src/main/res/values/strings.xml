@@ -22,4 +22,8 @@
     <string name="but_buy">点击购买</string>
 
     <string name="but_ited">编辑</string>
+
+    <string name="order_type_defaute">默认</string>
+    <string name="order_type_price">价格</string>
+    <string name="order_type_sales">销量</string>
 </resources>

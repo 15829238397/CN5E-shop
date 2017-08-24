@@ -2,6 +2,7 @@ package com.example.cne_shop.fragment;
 
 
 import android.animation.ObjectAnimator;
+import android.content.Intent;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
@@ -12,6 +13,7 @@ import com.daimajia.slider.library.SliderLayout;
 import com.daimajia.slider.library.SliderTypes.BaseSliderView;
 import com.daimajia.slider.library.SliderTypes.TextSliderView;
 import com.example.cne_shop.R;
+import com.example.cne_shop.activity.WareListActivity;
 import com.example.cne_shop.adapter.HomeAdapter;
 import com.example.cne_shop.base.BaseAdapter;
 import com.example.cne_shop.base.BaseFragment;
@@ -86,31 +88,31 @@ public class HomeFragment extends BaseFragment {
                 recyclerView.setLayoutManager(new LinearLayoutManager(HomeFragment.this.getContext()));
                 recyclerView.addItemDecoration(new MyDivider());
 
-//                myAdapter.setOnItemClickListener(new BaseAdapter.onItemClickListener() {
-//                    @Override
-//                    public void onClick(View view, int position) {
-//                        Intent intent = new Intent(getContext() , WareListActivity.class) ;
-//                        switch (view.getId()) {
-//                            case R.id.imageview_big:
-//                                doAnimation(view) ;
-//                                intent.putExtra("campaignId" , mData.get(position).getCpOne().getId()) ;
-//                                startActivity(intent);
-//                                break;
-//
-//                            case R.id.imageview_small_top:
-//                                doAnimation(view) ;
-//                                intent.putExtra("campaignId" , mData.get(position).getCpThree().getId()) ;
-//                                startActivity(intent);
-//                                break;
-//
-//                            case R.id.imageview_small_bottom:
-//                                doAnimation(view) ;
-//                                intent.putExtra("campaignId" , mData.get(position).getCpTwo().getId()) ;
-//                                startActivity(intent);
-//                                break;
-//                        }
-//                    }
-//                });
+                myAdapter.setOnItemClickListener(new BaseAdapter.onItemClickListener() {
+                    @Override
+                    public void onClick(View view, int position) {
+                        Intent intent = new Intent(getContext() , WareListActivity.class) ;
+                        switch (view.getId()) {
+                            case R.id.imageview_big:
+                                doAnimation(view) ;
+                                intent.putExtra("campaignId" , mData.get(position).getCpOne().getId()) ;
+                                startActivity(intent);
+                                break;
+
+                            case R.id.imageview_small_top:
+                                doAnimation(view) ;
+                                intent.putExtra("campaignId" , mData.get(position).getCpThree().getId()) ;
+                                startActivity(intent);
+                                break;
+
+                            case R.id.imageview_small_bottom:
+                                doAnimation(view) ;
+                                intent.putExtra("campaignId" , mData.get(position).getCpTwo().getId()) ;
+                                startActivity(intent);
+                                break;
+                        }
+                    }
+                });
             }
         } );}
 
