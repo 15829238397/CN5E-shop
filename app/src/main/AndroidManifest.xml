@@ -37,6 +37,9 @@
         </activity>
         <activity android:name=".activity.WareListActivity"></activity>
         <activity android:name=".activity.WareDetialActivity"></activity>
+        <activity android:name=".activity.LoginActivity"></activity>
+        <activity android:name=".activity.RegisterActivity"></activity>
+        <activity android:name=".activity.Register2Activity"></activity>
 
         <!--shareSDK配置-->
         <activity
@@ -67,6 +70,7 @@
             </intent-filter>
 
         </activity>
+        <activity android:name=".activity.Register2Activity" />
 
         <meta-data android:name="Mob-AppKey" android:value="1faa41812adfc"/>
         <meta-data android:name="Mob-AppSecret" android:value="68f95c4dc72d8c574e894a78fc5971b9"/>
@@ -74,12 +78,16 @@
         <!--您的项目集微信或者微信朋友圈，请查看AndroidManifest.xml配置文件里的
         package路径,需要在package目录下创建wxapi目录再放置WXEntryActivity。
          没有此activity在微信分享后回调会检查是否有此activity,没有将会报错。-->
-        <activity
-            android:name=".wxapi.WXEntryActivity"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar"
-            android:configChanges="keyboardHidden|orientation|screenSize"
-            android:exported="true"
-            android:screenOrientation="portrait" />
+        <!--<activity-->
+        <!--android:name=".wxapi.WXEntryActivity"-->
+        <!--android:theme="@android:style/Theme.Translucent.NoTitleBar"-->
+        <!--android:configChanges="keyboardHidden|orientation|screenSize"-->
+        <!--android:exported="true"-->
+        <!--android:screenOrientation="portrait" />-->
+
+        <meta-data android:name="Mob-AppKey" android:value="1faa41812adfc"/>
+        <meta-data android:name="Mob-AppSecret" android:value="68f95c4dc72d8c574e894a78fc5971b9"/>
+
 
     </application>
 

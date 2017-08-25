@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.cne_shop.widget.CnToolbar
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        android:minWidth="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:leftButtonIcon="@drawable/icon_back_32px"
+        app:title="@string/title_login"
+        android:titleTextColor="@color/white"
+        app:isShowSearchView="false"
+        ></com.example.cne_shop.widget.CnToolbar>
+
+    <View
+        style="@style/line_max_vertical"
+        ></View>
+
+    <com.example.cne_shop.widget.MyEditText
+        android:id="@+id/userId"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@color/white"
+        android:hint="@string/text_user"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:enabled="true"
+        android:textSize="14sp"
+        android:drawableLeft="@drawable/icon_telphone_32"/>
+    <View
+        style="@style/line_vertical"/>
+
+    <com.example.cne_shop.widget.MyEditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@color/white"
+        android:enabled="true"
+        android:hint="@string/text_pass"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:drawableLeft="@drawable/icon_lock"
+        android:textSize="14sp" />
+    <View
+        style="@style/line_max_vertical"
+        ></View>
+
+    <Button
+        android:id="@+id/button_log"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@color/red"
+        android:text="@string/but_login"
+        android:textColor="@color/white" />
+
+    <View
+        style="@style/line_max_vertical"
+        ></View>
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true">
+
+        <TextView
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/register"
+            android:textColor="@color/red"
+            android:clickable="true"
+            android:text="@string/but_regist"/>
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:id="@+id/forgetPass"
+            android:clickable="true"
+            android:textColor="@color/red"
+            android:text="@string/but_forget_pass"/>
+
+    </RelativeLayout>
+</LinearLayout>

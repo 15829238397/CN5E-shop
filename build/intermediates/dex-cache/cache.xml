@@ -57,6 +57,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\博\.android\build-cache\ef3f5568c4278ee1984c20dab7cb67ffb2e15deb\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f05ef472841da86c5b42cf99abcb3ccd63565e49">
+        <dex dex="D:\android\CN5E-shop\app\build\intermediates\pre-dexed\debug\classes_d134fbeec466ee454e560a00d128a0ff48e96196.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="D:\android\CN5E-shop\sharesdk\build\intermediates\bundles\default\libs\ShareSDK-TencentWeibo-3.0.0.jar"
         jumboMode="false"
         optimize="true"
@@ -135,6 +144,15 @@
         revision="25.0.2"
         sha1="446972c6358d997e9aac55a209854ac8a7fc3b7c">
         <dex dex="D:\android\CN5E-shop\app\build\intermediates\pre-dexed\debug\ShareSDK-SinaWeibo-3.0.0_0279769b734f70a3e62a1fcc550298e336479d57.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\博\.android\build-cache\36bd31030cad3136912e90b3ee6283a097ade044\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dbc4c2537071b3be108501a5ed268ef5d8162e64">
+        <dex dex="D:\android\CN5E-shop\app\build\intermediates\pre-dexed\debug\classes_cd79f09090d02a860a19c63b110c966a055a945c.jar" />
     </item>
     <item
         is-multidex="false"

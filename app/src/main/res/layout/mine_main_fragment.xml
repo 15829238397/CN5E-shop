@@ -14,16 +14,64 @@
         android:background="?attr/colorPrimary"
         android:titleTextColor="@color/white"
         app:isShowSearchView="false"
-        app:userPhotoIcon="@drawable/default_head"
-        app:userName="@string/tex_login"
 
         ></com.example.cne_shop.widget.CnToolbar>
+
+    <View
+        style="@style/line_max_vertical"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="mineeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
-        android:gravity="center"
-        android:textSize="30sp" />
+        android:paddingTop="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:id="@+id/my_list"
+        android:text="  我的订单"
+        android:gravity="center_vertical"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/icon_list_o"
+        />
+    <View
+        style="@style/line_vertical"
+        ></View>
+
+    <TextView
+        android:id="@+id/my_favorite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/icon_favorite"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="  我的收藏" />
+
+    <View
+        style="@style/line_vertical"
+        ></View>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="5dp"
+        android:gravity="center_vertical"
+        android:text="  收货地址"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/icon_location"
+        android:id="@+id/my_consignee"/>
+
+    <View
+        style="@style/line_max_vertical"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="退出登录"
+        android:id="@+id/loginOut"
+        android:background="@color/red"
+        android:visibility="gone"
+        android:textColor="@color/white"/>
 
 </LinearLayout>

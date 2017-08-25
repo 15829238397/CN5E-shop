@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.cne_shop.widget.CnToolbar
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        android:minWidth="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:leftButtonIcon="@drawable/icon_back_32px"
+        app:title="用户注册(2/2)"
+        android:titleTextColor="@color/white"
+        app:isShowSearchView="false"
+        app:rightButtonText="完成"
+        ></com.example.cne_shop.widget.CnToolbar>
+    <View
+        style="@style/line_max_vertical"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+
+            android:paddingLeft="5dp"
+            android:paddingTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我们已发送"
+            android:textColor="@color/cardview_shadow_start_color"
+            android:textSize="12sp"
+            android:paddingBottom="10dp"
+            />
+
+        <TextView
+            android:paddingTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="验证码"
+            android:textColor="@color/green"
+            android:textSize="12sp"
+            android:paddingBottom="10dp"/>
+
+        <TextView
+            android:paddingTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="短信到这个号码：+86 "
+            android:textColor="@color/cardview_shadow_start_color"
+            android:textSize="12sp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:paddingTop="10dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/phone"
+            android:text="15829238397"
+            android:textColor="@color/cardview_shadow_start_color"
+            android:textSize="12sp"
+            android:paddingBottom="10dp"/>
+
+    </LinearLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="@color/white"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:layout_gravity="right"
+            android:gravity="center"
+            android:id="@+id/reRequset"
+            android:text="点击重新发送"
+            android:layout_alignParentRight="true"
+            android:background="@color/green"
+            android:textColor="@color/white"/>
+
+        <com.example.cne_shop.widget.MyEditText
+            android:id="@+id/identifyCode"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@color/white"
+            android:hint="  请输入验证码"
+            android:layout_alignParentLeft="true"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:enabled="true"
+            android:textSize="14sp"
+            />
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

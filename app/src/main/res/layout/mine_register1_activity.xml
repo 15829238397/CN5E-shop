@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.cne_shop.widget.CnToolbar
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        android:minWidth="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:leftButtonIcon="@drawable/icon_back_32px"
+        app:title="用户注册(1/2)"
+        android:titleTextColor="@color/white"
+        app:isShowSearchView="false"
+        app:rightButtonText="下一步"
+        ></com.example.cne_shop.widget.CnToolbar>
+
+    <View
+        style="@style/line_max_vertical"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="@color/white"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="国家或者地区"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/country"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:text="中国"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+    <View
+        style="@style/line_vertical"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="@color/white"
+       >
+
+        <TextView
+            android:id="@+id/countryNum"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text="+86"
+            android:textSize="18sp" />
+        <View
+            style="@style/line_horizontal"
+            />
+
+        <com.example.cne_shop.widget.MyEditText
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@color/white"
+            android:hint="  请输入常用手机号"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:enabled="true"
+            android:textSize="14sp"
+           />
+    </LinearLayout>
+
+    <View
+        style="@style/line_vertical"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="@color/white"
+        >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text="密码"
+            android:textSize="18sp" />
+
+        <View
+            style="@style/line_horizontal"
+            />
+
+        <com.example.cne_shop.widget.MyEditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@color/white"
+            android:hint="  请输入密码"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:enabled="true"
+            android:textSize="14sp"
+            />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点击下一步获取手机验证码"
+        android:textColor="@color/cardview_shadow_start_color"
+        android:textSize="12sp"/>
+
+</LinearLayout>

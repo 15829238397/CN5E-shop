@@ -94,6 +94,7 @@
     <orderEntry type="jdk" jdkName="Android API 25 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="fresco-1.3.0" level="project" />
+    <orderEntry type="library" exported="" name="SMSSDKGUI-3.0.0-" level="project" />
     <orderEntry type="library" exported="" name="okhttp-2.7.5" level="project" />
     <orderEntry type="library" exported="" name="okio-1.6.0" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="runner-0.5" level="project" />
@@ -117,6 +118,7 @@
     <orderEntry type="library" exported="" name="support-vector-drawable-25.3.1" level="project" />
     <orderEntry type="library" exported="" name="support-compat-25.3.1" level="project" />
     <orderEntry type="library" exported="" name="butterknife-8.8.1" level="project" />
+    <orderEntry type="library" exported="" name="SMSSDK-3.0.0-" level="project" />
     <orderEntry type="library" exported="" name="webpsupport-1.3.0" level="project" />
     <orderEntry type="library" exported="" name="gson-2.8.1" level="project" />
     <orderEntry type="library" exported="" name="constraint-layout-1.0.2" level="project" />
