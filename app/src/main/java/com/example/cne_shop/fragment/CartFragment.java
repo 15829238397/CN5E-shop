@@ -10,6 +10,7 @@ import android.widget.CheckBox;
 import android.widget.TextView;
 
 import com.example.cne_shop.R;
+import com.example.cne_shop.activity.NewOrderActivity;
 import com.example.cne_shop.adapter.CartAdapter;
 import com.example.cne_shop.application.MyApplication;
 import com.example.cne_shop.base.BaseAdapter;
@@ -262,14 +263,18 @@ public class CartFragment extends BaseFragment {
             @Override
             public void onClick(View v) {
                 if(statua == STATUS_NORNAL){
+                    shoppingCarts = cartProvider.getAll() ;
+                    if(shoppingCarts == null||shoppingCarts.size()==0){
+                        return;
+                    }
                     //去结算
-//                    Intent intent = new Intent(getActivity() , NewOrderActivity.class) ;
-//
-//                    getOrderWares() ;
-//                    intent.putExtra(SUM_PRICE , sumPrices) ;
-//                    intent.putExtra(ORDER_WARES , getOrderWares()) ;
-//
-//                    startActivityWithLogin(intent , true , MyApplication.START_NO_RESULT);
+                    Intent intent = new Intent(getActivity() , NewOrderActivity.class) ;
+
+                    getOrderWares() ;
+                    intent.putExtra(SUM_PRICE , sumPrices) ;
+                    intent.putExtra(ORDER_WARES , getOrderWares()) ;
+
+                    startActivityWithLogin(intent , true , MyApplication.START_NO_RESULT);
 
                 }else if (statua == STATUS_EDIT){
                     deleteCartData() ;

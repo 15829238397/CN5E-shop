@@ -40,6 +40,8 @@
         <activity android:name=".activity.LoginActivity"></activity>
         <activity android:name=".activity.RegisterActivity"></activity>
         <activity android:name=".activity.Register2Activity"></activity>
+        <activity android:name=".activity.PayResultActivity"></activity>
+        <activity android:name=".activity.NewOrderActivity"></activity>
 
         <!--shareSDK配置-->
         <activity

@@ -60,6 +60,10 @@ public abstract class BaseAdapter<T , H extends BaseViewHolder> extends Recycler
     @Override
     public int getItemCount() {
 
+        if (mDatas == null){
+            return 0 ;
+        }
+
             for (int i = 0 ; i < mDatas.size() ; i++){
                 isSelecterd.add(false) ;
             }
