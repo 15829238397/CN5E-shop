@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="cmbkb_black">#ff000000</color>
+    <color name="cmbkb_blue">#ee0000c6</color>
+    <color name="cmbkb_category_divider_color">#ffdbdbdb</color>
+    <color name="cmbkb_category_list_bg">#fff7f7f7</color>
+    <color name="cmbkb_category_name_gray">#ffa2a2a2</color>
+    <color name="cmbkb_category_text_color">#ff000000</color>
+    <color name="cmbkb_category_vertival_line">#ffc4c4c4</color>
+    <color name="cmbkb_choose_text_color">#0074E1</color>
+    <color name="cmbkb_contents_text">#ff000000</color>
+    <color name="cmbkb_crimson">#ffe61a1a</color>
+    <color name="cmbkb_dark_red">#ffcc0000</color>
+    <color name="cmbkb_encode_view">#ffffffff</color>
+    <color name="cmbkb_font_gray">#ff888888</color>
+    <color name="cmbkb_font_red">#ffff0000</color>
+    <color name="cmbkb_gray">#ffcccccc</color>
+    <color name="cmbkb_help_button_view">#ffcccccc</color>
+    <color name="cmbkb_help_view">#ff404040</color>
+    <color name="cmbkb_light_gray">#ffe6e6e6</color>
+    <color name="cmbkb_lightblack">#ff202020</color>
+    <color name="cmbkb_limit_buy_border_bg">#ffd4bc77</color>
+    <color name="cmbkb_limit_buy_green">#ff00cc00</color>
+    <color name="cmbkb_limit_buy_text_bg">#ff666666</color>
+    <color name="cmbkb_limit_buy_title_bg">#fffffaee</color>
+    <color name="cmbkb_limit_buy_title_border_bg">#fff2daac</color>
+    <color name="cmbkb_orange_line">#fff2daac</color>
+    <color name="cmbkb_possible_result_points">#c0ffff00</color>
+    <color name="cmbkb_product_even_row">#fff5f5f5</color>
+    <color name="cmbkb_product_odd_row">#ffffffff</color>
+    <color name="cmbkb_product_options_active">#ffff9900</color>
+    <color name="cmbkb_product_options_passive">#ff999999</color>
+    <color name="cmbkb_red">#ffff0000</color>
+    <color name="cmbkb_result_image_border">#ffffffff</color>
+    <color name="cmbkb_result_minor_text">#ffc0c0c0</color>
+    <color name="cmbkb_result_points">#c000ff00</color>
+    <color name="cmbkb_result_text">#ffffffff</color>
+    <color name="cmbkb_result_view">#b0000000</color>
+    <color name="cmbkb_sbc_header_text">#ff808080</color>
+    <color name="cmbkb_sbc_header_view">#ffffffff</color>
+    <color name="cmbkb_sbc_layout_view">#ffffffff</color>
+    <color name="cmbkb_sbc_list_item">#fffff0e0</color>
+    <color name="cmbkb_sbc_page_number_text">#ff000000</color>
+    <color name="cmbkb_sbc_snippet_text">#ff4b4b4b</color>
+    <color name="cmbkb_share_text">#ff000000</color>
+    <color name="cmbkb_status_text">#ffffffff</color>
+    <color name="cmbkb_status_view">#50000000</color>
+    <color name="cmbkb_transparent">#00000000</color>
+    <color name="cmbkb_unchoose_text_color">#565656</color>
+    <color name="cmbkb_viewfinder_frame">#ff000000</color>
+    <color name="cmbkb_viewfinder_laser">#ffff0000</color>
+    <color name="cmbkb_viewfinder_mask">#60000000</color>
+    <color name="cmbkb_white">#ffffffff</color>
+    <color name="fqlpay_wap_color">#FF50A4FE</color>
+    <color name="gray">#ffd3d3d3</color>
+    <color name="mmdpay_wap_color">#FF10D4BC</color>
+    <color name="qgbc_wap_color">#FF4385f5</color>
+    <color name="white">#ffffffff</color>
+    <declare-styleable name="CmbEditText"><attr name="KeyBoardType">
+            <enum name="Normal" value="0"/>
+            <enum name="Number" value="1"/>
+        </attr><attr format="integer" name="Length"/><attr format="boolean" name="isPassword"/></declare-styleable>
+    <declare-styleable name="ProgressWheel"><attr format="boolean" name="matProg_progressIndeterminate"/><attr format="color" name="matProg_barColor"/><attr format="color" name="matProg_rimColor"/><attr format="dimension" name="matProg_rimWidth"/><attr format="float" name="matProg_spinSpeed"/><attr format="integer" name="matProg_barSpinCycleTime"/><attr format="dimension" name="matProg_circleRadius"/><attr format="boolean" name="matProg_fillRadius"/><attr format="dimension" name="matProg_barWidth"/><attr format="boolean" name="matProg_linearProgress"/></declare-styleable>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="cmbkb_key_height">50.0dip</dimen>
+    <dimen name="cmbkb_key_height_qwerty">40dip</dimen>
+    <string name="cmbkb_back">Back</string>
+    <string name="cmbkb_caption">CMB Safe Input</string>
+    <string name="cmbkb_finish">Finish</string>
+    <string name="cmbkb_more">More</string>
+    <string name="cmbkb_please_input">Please Input</string>
+    <string name="cmbkb_publickey">填写自己的publickey</string>
+    <string name="cmbkb_safe_input">Safe Input</string>
+    <string name="pingpp_add_new_card">添加新银行卡</string>
+    <string name="pingpp_alipay">支付宝</string>
+    <string name="pingpp_back_activity_pay">再试一次</string>
+    <string name="pingpp_bfb">百度钱包</string>
+    <string name="pingpp_bfb_wap">百度钱包</string>
+    <string name="pingpp_cmbkb">招行一网通</string>
+    <string name="pingpp_continue_buy">继续购物</string>
+    <string name="pingpp_copyright">支付接入由 Ping++ 提供</string>
+    <string name="pingpp_create_bill">成功下单</string>
+    <string name="pingpp_jdpay_wap">京东支付</string>
+    <string name="pingpp_label_amount">总金额</string>
+    <string name="pingpp_label_bill_name">订单号</string>
+    <string name="pingpp_pay_complete">完成</string>
+    <string name="pingpp_pay_failed">支付失败</string>
+    <string name="pingpp_prompt_pay_falied">可能因为网络过于繁忙</string>
+    <string name="pingpp_title_activity_pay">支付</string>
+    <string name="pingpp_title_activity_pay_failed">支付失败</string>
+    <string name="pingpp_title_activity_pay_filed">支付失败</string>
+    <string name="pingpp_title_activity_pay_successed">支付成功</string>
+    <string name="pingpp_title_activity_success">支付成功</string>
+    <string name="pingpp_upacp">银联支付</string>
+    <string name="pingpp_wechat">微信支付</string>
+    <string name="pingpp_yeepay_wap">易宝支付</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="@android:style/Theme.Black.NoTitleBar">
+
+    </style>
+    <style name="CMBAnimBottom" parent="@android:style/Animation">  
+    	<item name="android:windowEnterAnimation">@anim/cmbkb_push_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/cmbkb_push_bottom_out</item>
+	</style>
+    <style name="CmbDialogStyle">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item><!--模糊-->        
+    </style>
+    <style name="CmbDialogStyleBottom" parent="android:Theme.Dialog">
+        <item name="android:windowAnimationStyle">@style/CMBAnimBottom</item>
+        <item name="android:windowFrame">@null</item><!--边框-->
+        <item name="android:windowIsFloating">true</item><!--是否浮现在activity之上-->
+        <item name="android:windowIsTranslucent">true</item><!--半透明-->
+        <item name="android:windowNoTitle">true</item><!--无标题-->
+        <item name="android:windowBackground">@android:color/transparent</item><!--背景透明-->
+        <item name="android:backgroundDimEnabled">false</item><!--activity不变暗-->        
+     </style>
+    <style name="CmbDialogStyleBottomDark" parent="android:Theme.Dialog">
+        <item name="android:windowAnimationStyle">@style/CMBAnimBottom</item>
+        <item name="android:windowFrame">@null</item><!--边框-->
+        <item name="android:windowIsFloating">true</item><!--是否浮现在activity之上-->
+        <item name="android:windowIsTranslucent">true</item><!--半透明-->
+        <item name="android:windowNoTitle">true</item><!--无标题-->
+        <item name="android:windowBackground">@android:color/transparent</item><!--背景透明-->
+        <item name="android:backgroundDimEnabled">true</item><!--activity不变暗-->        
+     </style>
+    <style name="CustomPayDialog" parent="@style/AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+    <style name="mystyle" parent="android:Animation">
+        <item name="@android:windowEnterAnimation">@anim/dialog_enter</item>
+        <item name="@android:windowExitAnimation">@anim/dialog_exit</item>
+    </style>
+</resources>

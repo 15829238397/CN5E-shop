@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="libpingpp-2.1.11">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/pingpp/libs/libpingpp-2.1.11.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

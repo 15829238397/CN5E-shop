@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\ebpay_slide_from_right.xml",
+        "source": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\bundles\\debug\\res\\anim\\ebpay_slide_from_right.xml"
+    },
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\wallet_base_dismiss_dialog_anim.xml",
+        "source": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\bundles\\debug\\res\\anim\\wallet_base_dismiss_dialog_anim.xml"
+    },
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\ebpay_slide_from_left.xml",
+        "source": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\bundles\\debug\\res\\anim\\ebpay_slide_from_left.xml"
+    },
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\wallet_base_slide_from_right.xml",
+        "source": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\bundles\\debug\\res\\anim\\wallet_base_slide_from_right.xml"
+    },
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\wallet_base_slide_to_right.xml",
+        "source": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\bundles\\debug\\res\\anim\\wallet_base_slide_to_right.xml"
+    },
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\ebpay_slide_to_right.xml",
+        "source": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\bundles\\debug\\res\\anim\\ebpay_slide_to_right.xml"
+    },
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\wallet_base_slide_to_left.xml",
+        "source": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\bundles\\debug\\res\\anim\\wallet_base_slide_to_left.xml"
+    },
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\wallet_base_slide_from_left.xml",
+        "source": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\bundles\\debug\\res\\anim\\wallet_base_slide_from_left.xml"
+    },
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\ebpay_slide_to_left.xml",
+        "source": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\bundles\\debug\\res\\anim\\ebpay_slide_to_left.xml"
+    },
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\wallet_base_show_dialog_anim.xml",
+        "source": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\bundles\\debug\\res\\anim\\wallet_base_show_dialog_anim.xml"
+    }
+]

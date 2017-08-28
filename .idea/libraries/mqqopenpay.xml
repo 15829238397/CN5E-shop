@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="mqqopenpay">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/pingpp/libs/mqqopenpay.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

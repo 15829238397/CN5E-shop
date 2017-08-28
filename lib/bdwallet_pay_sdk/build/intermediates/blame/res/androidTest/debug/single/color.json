@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\wallet_base_dialog_btntext_color_selector.xml",
+        "source": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\bundles\\debug\\res\\color\\wallet_base_dialog_btntext_color_selector.xml"
+    },
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\wallet_base_click_text_color.xml",
+        "source": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\bundles\\debug\\res\\color\\wallet_base_click_text_color.xml"
+    }
+]

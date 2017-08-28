@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\debug\\drawable\\pingpp_channel_item_selector.xml",
+        "source": "D:\\android\\CN5E-shop\\lib\\pingpp_one\\res\\drawable\\pingpp_channel_item_selector.xml"
+    },
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\debug\\drawable\\cmbkb_btn_keyboard_key.xml",
+        "source": "D:\\android\\CN5E-shop\\lib\\pingpp\\build\\intermediates\\bundles\\default\\res\\drawable\\cmbkb_btn_keyboard_key.xml"
+    },
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\debug\\drawable\\pingpp_common_pay_channel_btton.xml",
+        "source": "D:\\android\\CN5E-shop\\lib\\pingpp_one\\res\\drawable\\pingpp_common_pay_channel_btton.xml"
+    },
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\debug\\drawable\\pingpp_common_pay_button_green.xml",
+        "source": "D:\\android\\CN5E-shop\\lib\\pingpp_one\\res\\drawable\\pingpp_common_pay_button_green.xml"
+    },
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\debug\\drawable\\pingpp_common_pay_button_blue.xml",
+        "source": "D:\\android\\CN5E-shop\\lib\\pingpp_one\\res\\drawable\\pingpp_common_pay_button_blue.xml"
+    }
+]

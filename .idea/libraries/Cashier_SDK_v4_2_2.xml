@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Cashier_SDK-v4.2.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/bdwallet_pay_sdk/libs/Cashier_SDK-v4.2.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

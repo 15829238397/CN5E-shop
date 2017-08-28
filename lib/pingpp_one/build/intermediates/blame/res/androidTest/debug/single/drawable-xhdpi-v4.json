@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\pingpp_success.png",
+        "source": "D:\\android\\CN5E-shop\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\pingpp_success.png"
+    },
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\pingpp_cmbkb.png",
+        "source": "D:\\android\\CN5E-shop\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\pingpp_cmbkb.png"
+    },
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\pingpp_jingdongpay.png",
+        "source": "D:\\android\\CN5E-shop\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\pingpp_jingdongpay.png"
+    },
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\pingpp_wechat.png",
+        "source": "D:\\android\\CN5E-shop\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\pingpp_wechat.png"
+    },
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\pingpp_unipay.png",
+        "source": "D:\\android\\CN5E-shop\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\pingpp_unipay.png"
+    },
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\pingpp_alipay.png",
+        "source": "D:\\android\\CN5E-shop\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\pingpp_alipay.png"
+    },
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\pingpp_nocard.png",
+        "source": "D:\\android\\CN5E-shop\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\pingpp_nocard.png"
+    },
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\pingpp_done.png",
+        "source": "D:\\android\\CN5E-shop\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\pingpp_done.png"
+    },
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\pingpp_failed.png",
+        "source": "D:\\android\\CN5E-shop\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\pingpp_failed.png"
+    },
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\pingpp_unionpay.png",
+        "source": "D:\\android\\CN5E-shop\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\pingpp_unionpay.png"
+    },
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\pingpp_shopping.png",
+        "source": "D:\\android\\CN5E-shop\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\pingpp_shopping.png"
+    },
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\pingpp_baidu.png",
+        "source": "D:\\android\\CN5E-shop\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\pingpp_baidu.png"
+    },
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\pingpp_wepay.png",
+        "source": "D:\\android\\CN5E-shop\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\pingpp_wepay.png"
+    },
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\pingpp_baidupay.png",
+        "source": "D:\\android\\CN5E-shop\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\pingpp_baidupay.png"
+    }
+]

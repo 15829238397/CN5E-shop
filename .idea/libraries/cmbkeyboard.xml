@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="cmbkeyboard">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/pingpp/libs/cmbkeyboard.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

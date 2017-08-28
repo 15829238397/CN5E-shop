@@ -9,6 +9,10 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/lib" />
+            <option value="$PROJECT_DIR$/lib/bdwallet_pay_sdk" />
+            <option value="$PROJECT_DIR$/lib/pingpp" />
+            <option value="$PROJECT_DIR$/lib/pingpp_one" />
             <option value="$PROJECT_DIR$/sharesdk" />
           </set>
         </option>

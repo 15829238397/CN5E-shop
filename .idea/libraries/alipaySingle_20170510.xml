@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="alipaySingle-20170510">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/pingpp/libs/alipaySingle-20170510.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

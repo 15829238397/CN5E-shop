@@ -83,6 +83,7 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental-safeguard" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/jniLibs" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/manifests" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/multi-dex" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/pre-dexed" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/res" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/shaders" />
@@ -106,6 +107,7 @@
     <orderEntry type="library" exported="" name="fbcore-1.3.0" level="project" />
     <orderEntry type="library" exported="" name="library-1.1.5" level="project" />
     <orderEntry type="library" exported="" name="library-1.3.0" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="multidex-instrumentation-1.0.1" level="project" />
     <orderEntry type="library" exported="" name="butterknife-annotations-8.8.1" level="project" />
     <orderEntry type="library" exported="" name="library-2.4.0" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="exposed-instrumentation-api-publish-0.5" level="project" />
@@ -143,6 +145,7 @@
     <orderEntry type="library" exported="" name="animated-base-1.3.0" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="javax.inject-1" level="project" />
     <orderEntry type="library" exported="" name="okhttp-urlconnection-2.7.5" level="project" />
+    <orderEntry type="library" exported="" name="multidex-1.0.1" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="hamcrest-core-1.3" level="project" />
     <orderEntry type="library" exported="" name="animated-gif-1.3.0" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="junit-4.12" level="project" />
@@ -150,7 +153,15 @@
     <orderEntry type="library" exported="" name="appcompat-v7-25.3.1" level="project" />
     <orderEntry type="library" exported="" name="animated-vector-drawable-25.3.1" level="project" />
     <orderEntry type="library" exported="" name="spots-dialog-0.7" level="project" />
+    <orderEntry type="module" module-name="pingpp" exported="" />
     <orderEntry type="module" module-name="sharesdk" exported="" />
+    <orderEntry type="library" exported="" name="cmbkeyboard" level="project" />
+    <orderEntry type="library" exported="" name="libpingpp-2.1.11" level="project" />
+    <orderEntry type="library" exported="" name="UPPayAssistEx" level="project" />
+    <orderEntry type="library" exported="" name="mqqopenpay" level="project" />
+    <orderEntry type="library" exported="" name="UPPayPluginExPro" level="project" />
+    <orderEntry type="library" exported="" name="wechat-sdk-android-without-mta-1.1.7" level="project" />
+    <orderEntry type="library" exported="" name="alipaySingle-20170510" level="project" />
     <orderEntry type="library" exported="" name="ShareSDK-Email-3.0.0" level="project" />
     <orderEntry type="library" exported="" name="ShareSDK-QZone-3.0.0" level="project" />
     <orderEntry type="library" exported="" name="ShareSDK-ShortMessage-3.0.0" level="project" />

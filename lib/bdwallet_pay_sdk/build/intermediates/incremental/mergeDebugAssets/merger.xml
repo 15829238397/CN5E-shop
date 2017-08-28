@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="D:\android\CN5E-shop\lib\bdwallet_pay_sdk\assets"/><source path="D:\android\CN5E-shop\lib\bdwallet_pay_sdk\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="D:\android\CN5E-shop\lib\bdwallet_pay_sdk\src\debug\assets"/></dataSet></merger>

@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\pingpp_activity_pay.xml",
+        "source": "D:\\android\\CN5E-shop\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\layout\\pingpp_activity_pay.xml"
+    },
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\cmbkeyboard.xml",
+        "source": "D:\\android\\CN5E-shop\\lib\\pingpp\\build\\intermediates\\bundles\\default\\res\\layout\\cmbkeyboard.xml"
+    },
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\pingpp_bill_item.xml",
+        "source": "D:\\android\\CN5E-shop\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\layout\\pingpp_bill_item.xml"
+    },
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\pingpp_pay_channel_item.xml",
+        "source": "D:\\android\\CN5E-shop\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\layout\\pingpp_pay_channel_item.xml"
+    },
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\pingpp_activity_pay_successed.xml",
+        "source": "D:\\android\\CN5E-shop\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\layout\\pingpp_activity_pay_successed.xml"
+    },
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_pingpp_payment.xml",
+        "source": "D:\\android\\CN5E-shop\\lib\\pingpp\\build\\intermediates\\bundles\\default\\res\\layout\\activity_pingpp_payment.xml"
+    },
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\fragment_pay_way_dialog.xml",
+        "source": "D:\\android\\CN5E-shop\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\layout\\fragment_pay_way_dialog.xml"
+    }
+]

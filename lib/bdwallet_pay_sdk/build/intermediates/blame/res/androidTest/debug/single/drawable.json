@@ -1,0 +1,134 @@
+[
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ebpay_list_selector.xml",
+        "source": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\ebpay_list_selector.xml"
+    },
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ebpay_gray_line.xml",
+        "source": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\ebpay_gray_line.xml"
+    },
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\wallet_base_loading_gray.xml",
+        "source": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\wallet_base_loading_gray.xml"
+    },
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\wallet_base_bg_clear_selector.xml",
+        "source": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\wallet_base_bg_clear_selector.xml"
+    },
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\wallet_base_shape_scrollbar.xml",
+        "source": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\wallet_base_shape_scrollbar.xml"
+    },
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\wallet_base_dialog_btn_selector.xml",
+        "source": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\wallet_base_dialog_btn_selector.xml"
+    },
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\wallet_base_info_btn_selector.xml",
+        "source": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\wallet_base_info_btn_selector.xml"
+    },
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\wallet_base_dashed_shape_press.xml",
+        "source": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\wallet_base_dashed_shape_press.xml"
+    },
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ebpay_title_btn_selector.xml",
+        "source": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\ebpay_title_btn_selector.xml"
+    },
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\wallet_base_btn.xml",
+        "source": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\wallet_base_btn.xml"
+    },
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\wallet_base_pwdpay_middle_selector.xml",
+        "source": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\wallet_base_pwdpay_middle_selector.xml"
+    },
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\wallet_base_delete.xml",
+        "source": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\wallet_base_delete.xml"
+    },
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\wallet_base_pwdpay_submit_selector.xml",
+        "source": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\wallet_base_pwdpay_submit_selector.xml"
+    },
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\wallet_base_menu_item_bg.xml",
+        "source": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\wallet_base_menu_item_bg.xml"
+    },
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\wallet_base_dashed_shape_normal.xml",
+        "source": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\wallet_base_dashed_shape_normal.xml"
+    },
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\wallet_base_pwdpay_close_selector.xml",
+        "source": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\wallet_base_pwdpay_close_selector.xml"
+    },
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ebpay_bg_checkbox_seletor.xml",
+        "source": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\ebpay_bg_checkbox_seletor.xml"
+    },
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\wallet_base_dash_btn_selector.xml",
+        "source": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\wallet_base_dash_btn_selector.xml"
+    },
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\wallet_base_title_back_selector.xml",
+        "source": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\wallet_base_title_back_selector.xml"
+    },
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\wallet_base_btn_switch.xml",
+        "source": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\wallet_base_btn_switch.xml"
+    },
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\wallet_base_pwdpay_channel_activity_bg.xml",
+        "source": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\wallet_base_pwdpay_channel_activity_bg.xml"
+    },
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ebpay_textview_bg_selector.xml",
+        "source": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\ebpay_textview_bg_selector.xml"
+    },
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\wallet_base_dialog_leftbtn_selector.xml",
+        "source": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\wallet_base_dialog_leftbtn_selector.xml"
+    },
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\wallet_base_progressbar.xml",
+        "source": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\wallet_base_progressbar.xml"
+    },
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\wallet_base_loading.xml",
+        "source": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\wallet_base_loading.xml"
+    },
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\wallet_base_neg_btn_bg.xml",
+        "source": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\wallet_base_neg_btn_bg.xml"
+    },
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\wallet_base_dialog_rightbtn_selector.xml",
+        "source": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\wallet_base_dialog_rightbtn_selector.xml"
+    },
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\wallet_base_service_squared_item_bg.xml",
+        "source": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\wallet_base_service_squared_item_bg.xml"
+    },
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\wallet_base_corners_bg.xml",
+        "source": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\wallet_base_corners_bg.xml"
+    },
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\wallet_base_refresh_loading_small.xml",
+        "source": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\wallet_base_refresh_loading_small.xml"
+    },
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\wallet_base_select_bank_item_selector.xml",
+        "source": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\wallet_base_select_bank_item_selector.xml"
+    },
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\wallet_base_bank_item_selector.xml",
+        "source": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\wallet_base_bank_item_selector.xml"
+    },
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\wallet_base_refresh_loading.xml",
+        "source": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\wallet_base_refresh_loading.xml"
+    }
+]

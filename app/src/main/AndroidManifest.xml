@@ -70,24 +70,60 @@
             </intent-filter>
 
         </activity>
-        <activity android:name=".activity.Register2Activity" />
+
+        <!-- Ping++ SDK -->
+        <activity
+            android:name="com.pingplusplus.android.PaymentActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:launchMode="singleTop"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+
+            <!-- 不使用QQ钱包,可删除此部分代码 -->
+            <!-- scheme 填写规则建议：qwallet + QQ钱包中的app_id -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="qwalletXXXXXXXX"/>
+            </intent-filter>
+
+        </activity>
+
+        <!-- 微信支付 -->
+        <!-- 1.需要将以下"替换成自己 APK 的包名"换成在微信平台上注册填写的包名 -->
+        <!-- 2.WxPayEntryActivity 这个类在 SDK 内部实现，开发者不需要额外实现该类 -->
+        <activity-alias
+            android:name="com.example.cne_shop.wxapi.WXPayEntryActivity"
+            android:exported="true"
+            android:targetActivity="com.pingplusplus.android.PaymentActivity" />
+
+        <!-- 支付宝 -->
+        <activity
+            android:name="com.alipay.sdk.app.H5PayActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:exported="false"
+            android:screenOrientation="behind" >
+        </activity>
+        <activity
+            android:name="com.alipay.sdk.auth.AuthActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:exported="false"
+            android:screenOrientation="behind" >
+        </activity>
+
+        <!-- 银联支付 -->
+        <activity
+            android:name="com.unionpay.uppay.PayActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"/>
+
+        <!-- 招行一网通 -->
+        <service android:name="cmb.pb.cmbsafe.CmbService" android:exported="false"/>
+        <activity
+            android:name="cmb.pb.ui.PBKeyboardActivity"
+            android:theme="@style/CmbDialogStyleBottom" />
 
         <meta-data android:name="Mob-AppKey" android:value="1faa41812adfc"/>
         <meta-data android:name="Mob-AppSecret" android:value="68f95c4dc72d8c574e894a78fc5971b9"/>
-
-        <!--您的项目集微信或者微信朋友圈，请查看AndroidManifest.xml配置文件里的
-        package路径,需要在package目录下创建wxapi目录再放置WXEntryActivity。
-         没有此activity在微信分享后回调会检查是否有此activity,没有将会报错。-->
-        <!--<activity-->
-        <!--android:name=".wxapi.WXEntryActivity"-->
-        <!--android:theme="@android:style/Theme.Translucent.NoTitleBar"-->
-        <!--android:configChanges="keyboardHidden|orientation|screenSize"-->
-        <!--android:exported="true"-->
-        <!--android:screenOrientation="portrait" />-->
-
-        <meta-data android:name="Mob-AppKey" android:value="1faa41812adfc"/>
-        <meta-data android:name="Mob-AppSecret" android:value="68f95c4dc72d8c574e894a78fc5971b9"/>
-
 
     </application>
 

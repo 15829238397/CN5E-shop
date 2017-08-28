@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-sw320dp-v13\\values-sw320dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 60,
+                    "endOffset": 111
+                },
+                "from": {
+                    "file": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\bundles\\debug\\res\\values-sw320dp-v13\\values-sw320dp-v13.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 60,
+                        "endOffset": 111
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -3,24 +3,6 @@
 
     <item
         is-multidex="false"
-        jar="D:\android\CN5E-shop\sharesdk\build\intermediates\bundles\default\libs\ShareSDK-Twitter-3.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c4e8780ae6282eeaf34d849357876f2d39a2e895">
-        <dex dex="D:\android\CN5E-shop\app\build\intermediates\pre-dexed\debug\ShareSDK-Twitter-3.0.0_e0b08bfde63d681bba65accbea1207b4b6eef515.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\android\CN5E-shop\sharesdk\build\intermediates\bundles\default\libs\ShareSDK-Wechat-3.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="922000c92c470de6f36ee9dfe90597efb5b13a0e">
-        <dex dex="D:\android\CN5E-shop\app\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-3.0.0_cd3c2b95fcc195ac9718e60f78a70c7501f6b15b.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="D:\android\CN5E-shop\sharesdk\build\intermediates\bundles\default\libs\ShareSDK-Facebook-3.0.0.jar"
         jumboMode="false"
         optimize="true"
@@ -39,39 +21,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="D:\android\CN5E-shop\sharesdk\build\intermediates\bundles\default\libs\ShareSDK-ShortMessage-3.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f504625bfc1b43c1477b5b99071c28cba44b1d8c">
-        <dex dex="D:\android\CN5E-shop\app\build\intermediates\pre-dexed\debug\ShareSDK-ShortMessage-3.0.0_f76e8218dc1f1d63f8cc42db8d71bc967d6daaa4.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="D:\android\CN5E-shop\sharesdk\build\intermediates\bundles\default\libs\MobTools-2017.0608.1618.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="5738585f59cff6a942053a1bc2f8f2c7ecb00705">
         <dex dex="D:\android\CN5E-shop\app\build\intermediates\pre-dexed\debug\MobTools-2017.0608.1618_3e1948f404527ac2a54553e3356a221fa25e6735.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\博\.android\build-cache\ef3f5568c4278ee1984c20dab7cb67ffb2e15deb\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f05ef472841da86c5b42cf99abcb3ccd63565e49">
-        <dex dex="D:\android\CN5E-shop\app\build\intermediates\pre-dexed\debug\classes_d134fbeec466ee454e560a00d128a0ff48e96196.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\android\CN5E-shop\sharesdk\build\intermediates\bundles\default\libs\ShareSDK-TencentWeibo-3.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="bba69f70d36d1bf2d5f37ba6bf4826065e4f4bc6">
-        <dex dex="D:\android\CN5E-shop\app\build\intermediates\pre-dexed\debug\ShareSDK-TencentWeibo-3.0.0_397663794f5f870369c43e5817aa2f7bb9373edf.jar" />
     </item>
     <item
         is-multidex="false"
@@ -102,30 +57,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="D:\android\CN5E-shop\sharesdk\build\intermediates\bundles\default\libs\ShareSDK-QZone-3.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="a84a6a119c5e619a23e6b836896c12ff18b7cad4">
-        <dex dex="D:\android\CN5E-shop\app\build\intermediates\pre-dexed\debug\ShareSDK-QZone-3.0.0_ff816b6112fe1178e782c47cc4ef5ac32965859a.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="D:\android\CN5E-shop\sharesdk\build\intermediates\bundles\default\libs\ShareSDK-Wechat-Moments-3.0.0.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="7fbb4c6e7fd3c1d97a41d6058d851f8cb5503020">
         <dex dex="D:\android\CN5E-shop\app\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-Moments-3.0.0_e992b41cf7aa4b7433c25ede0f46da5e79a25546.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\android\CN5E-shop\sharesdk\build\intermediates\bundles\default\libs\ShareSDK-Wechat-Favorite-3.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="035e2c6407f6bffb5054327c7d9877524e55b60d">
-        <dex dex="D:\android\CN5E-shop\app\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-Favorite-3.0.0_7f6b8c44c0065beb2bcdda25305464acdcab137d.jar" />
     </item>
     <item
         is-multidex="false"
@@ -138,30 +75,84 @@
     </item>
     <item
         is-multidex="false"
-        jar="D:\android\CN5E-shop\sharesdk\build\intermediates\bundles\default\libs\ShareSDK-SinaWeibo-3.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="446972c6358d997e9aac55a209854ac8a7fc3b7c">
-        <dex dex="D:\android\CN5E-shop\app\build\intermediates\pre-dexed\debug\ShareSDK-SinaWeibo-3.0.0_0279769b734f70a3e62a1fcc550298e336479d57.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\博\.android\build-cache\36bd31030cad3136912e90b3ee6283a097ade044\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="dbc4c2537071b3be108501a5ed268ef5d8162e64">
-        <dex dex="D:\android\CN5E-shop\app\build\intermediates\pre-dexed\debug\classes_cd79f09090d02a860a19c63b110c966a055a945c.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="D:\android\CN5E-shop\sharesdk\build\intermediates\bundles\default\libs\ShareSDK-Core-3.0.0.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="9d925df8de34c68bed8dbf9e83ff91719851a7d9">
         <dex dex="D:\android\CN5E-shop\app\build\intermediates\pre-dexed\debug\ShareSDK-Core-3.0.0_8d291576a1f525a74ac82afe133c654f2de3c9a5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\android\CN5E-shop\sharesdk\build\intermediates\bundles\default\libs\ShareSDK-Twitter-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c4e8780ae6282eeaf34d849357876f2d39a2e895">
+        <dex dex="D:\android\CN5E-shop\app\build\intermediates\pre-dexed\debug\ShareSDK-Twitter-3.0.0_e0b08bfde63d681bba65accbea1207b4b6eef515.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\android\CN5E-shop\sharesdk\build\intermediates\bundles\default\libs\ShareSDK-Wechat-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="922000c92c470de6f36ee9dfe90597efb5b13a0e">
+        <dex dex="D:\android\CN5E-shop\app\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-3.0.0_cd3c2b95fcc195ac9718e60f78a70c7501f6b15b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\android\CN5E-shop\sharesdk\build\intermediates\bundles\default\libs\ShareSDK-ShortMessage-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f504625bfc1b43c1477b5b99071c28cba44b1d8c">
+        <dex dex="D:\android\CN5E-shop\app\build\intermediates\pre-dexed\debug\ShareSDK-ShortMessage-3.0.0_f76e8218dc1f1d63f8cc42db8d71bc967d6daaa4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\android\CN5E-shop\sharesdk\build\intermediates\bundles\default\libs\ShareSDK-TencentWeibo-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bba69f70d36d1bf2d5f37ba6bf4826065e4f4bc6">
+        <dex dex="D:\android\CN5E-shop\app\build\intermediates\pre-dexed\debug\ShareSDK-TencentWeibo-3.0.0_397663794f5f870369c43e5817aa2f7bb9373edf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\android\CN5E-shop\sharesdk\build\intermediates\bundles\default\libs\ShareSDK-QZone-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a84a6a119c5e619a23e6b836896c12ff18b7cad4">
+        <dex dex="D:\android\CN5E-shop\app\build\intermediates\pre-dexed\debug\ShareSDK-QZone-3.0.0_ff816b6112fe1178e782c47cc4ef5ac32965859a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\android\CN5E-shop\lib\pingpp\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="73f51ac76876c2ffd923f1b8ea9628f5898fc336">
+        <dex dex="D:\android\CN5E-shop\app\build\intermediates\pre-dexed\debug\classes_ab48f1519b6305473ba61ccffe0a925456706e35.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\android\CN5E-shop\sharesdk\build\intermediates\bundles\default\libs\ShareSDK-Wechat-Favorite-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="035e2c6407f6bffb5054327c7d9877524e55b60d">
+        <dex dex="D:\android\CN5E-shop\app\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-Favorite-3.0.0_7f6b8c44c0065beb2bcdda25305464acdcab137d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\android\CN5E-shop\sharesdk\build\intermediates\bundles\default\libs\ShareSDK-SinaWeibo-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="446972c6358d997e9aac55a209854ac8a7fc3b7c">
+        <dex dex="D:\android\CN5E-shop\app\build\intermediates\pre-dexed\debug\ShareSDK-SinaWeibo-3.0.0_0279769b734f70a3e62a1fcc550298e336479d57.jar" />
     </item>
 
 </items>

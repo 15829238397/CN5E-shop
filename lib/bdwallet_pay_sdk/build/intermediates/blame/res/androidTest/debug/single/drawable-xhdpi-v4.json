@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\ebpay_pwdpay_check_bg.png",
+        "source": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ebpay_pwdpay_check_bg.png"
+    },
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\ebpay_pwdpay_radio_sel.png",
+        "source": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ebpay_pwdpay_radio_sel.png"
+    },
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\ebpay_pwdpay_radio_bg.png",
+        "source": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ebpay_pwdpay_radio_bg.png"
+    },
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\wallet_base_indicator_arrow.png",
+        "source": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\wallet_base_indicator_arrow.png"
+    },
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\ebpay_pwdpay_check_sel.png",
+        "source": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ebpay_pwdpay_check_sel.png"
+    },
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\ebpay_pwdpay_next.png",
+        "source": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ebpay_pwdpay_next.png"
+    },
+    {
+        "merged": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\ebpay_pwdpay_check_disable.png",
+        "source": "D:\\android\\CN5E-shop\\lib\\bdwallet_pay_sdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ebpay_pwdpay_check_disable.png"
+    }
+]
