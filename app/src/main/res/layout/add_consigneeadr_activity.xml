@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="wrap_content">
+    <com.example.cne_shop.widget.CnToolbar
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        android:minWidth="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:leftButtonIcon="@drawable/icon_back_32px"
+        app:title="新建收货地址"
+        android:titleTextColor="@color/white"
+        app:rightButtonText="保存"
+        app:isShowSearchView="false"
+        ></com.example.cne_shop.widget.CnToolbar>
+
+    <View
+        style="@style/line_max_vertical"
+        ></View>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        >
+
+       <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp">
+
+
+           <TextView
+               android:layout_width="60dp"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:text="收件人"/>
+           <View
+               style="@style/line_horizontal"
+               android:background="@color/cardview_shadow_end_color"
+               />
+
+           <com.example.cne_shop.widget.MyEditText
+               android:id="@+id/consignee_name"
+               android:layout_width="match_parent"
+               android:layout_height="35dp"
+               android:layout_gravity="center"
+               android:hint="请输入收件人姓名"
+               android:textSize="14sp"
+               android:enabled="true"
+               android:paddingLeft="5dp"
+               android:paddingRight="5dp"
+               android:background="@color/white"
+               />
+
+       </LinearLayout>
+
+        <View
+            style="@style/line_vertical"
+            android:background="@color/cardview_shadow_end_color"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp">
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:text="联系电话"/>
+            <View
+                style="@style/line_horizontal"
+                android:background="@color/cardview_shadow_end_color"
+                />
+
+            <com.example.cne_shop.widget.MyEditText
+                android:id="@+id/consignee_phone"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:hint="请输入收件人电话"
+                android:paddingLeft="5dp"
+                android:textSize="14sp"
+                android:paddingRight="5dp"
+                android:enabled="true"
+                android:background="@color/white"
+                />
+
+        </LinearLayout>
+        <View
+            style="@style/line_vertical"
+            android:background="@color/cardview_shadow_end_color"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="35dp"
+                android:gravity="center_vertical|left"
+                android:id="@+id/select_consigneeAdr"
+                android:text="联系地址"/>
+            <View
+                style="@style/line_horizontal"
+                android:background="@color/cardview_shadow_end_color"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:hint="请选择收件人地址"
+                android:gravity="center_vertical|left"
+                android:id="@+id/consigneeAdr"
+                />
+
+        </LinearLayout>
+
+        <View
+            style="@style/line_vertical"
+            android:background="@color/cardview_shadow_end_color"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="详细地址"/>
+            <View
+                style="@style/line_horizontal"
+                android:background="@color/cardview_shadow_end_color"
+                />
+
+            <com.example.cne_shop.widget.MyEditText
+                android:id="@+id/consignee_address"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@color/white"
+                android:paddingLeft="5dp"
+                android:hint="请填写收件人详细地址"
+                android:paddingRight="5dp"
+                android:enabled="true"
+                android:textSize="14sp"
+                android:layout_gravity="center"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

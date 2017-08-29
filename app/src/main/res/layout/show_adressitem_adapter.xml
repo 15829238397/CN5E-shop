@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="10dp"
+    android:paddingRight="5dp"
+    android:paddingTop="10dp"
+    android:background="@color/white"
+    android:paddingLeft="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/consignee_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="小庄"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/consignee_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:text="158*****397"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:background="@color/white"
+        android:id="@+id/consignee_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:text="广州市天河区五山路141号"
+        android:textColor="@color/cardview_shadow_start_color"
+        android:textSize="14sp" />
+
+    <View
+        style="@style/line_vertical"
+        android:background="@color/cardview_shadow_end_color"
+       />
+
+    <RelativeLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingBottom="10dp">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:id="@+id/radio_selected"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            style="@style/RadioButton" />
+
+        <TextView
+            android:id="@+id/radio_selectedText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/radio_selected"
+            android:paddingLeft="10dp"
+            android:text="设为默认"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/delete_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/icon_trash_32"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="  删除"
+            android:textSize="14sp"
+            android:layout_alignBaseline="@+id/edite_address"
+            android:layout_alignBottom="@+id/edite_address"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:id="@+id/edite_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/delete_address"
+            android:layout_centerVertical="true"
+            android:drawableLeft="@drawable/icon_edit_32"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="  编辑"
+            android:textSize="14sp" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

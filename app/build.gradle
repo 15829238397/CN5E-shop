@@ -64,4 +64,5 @@ dependencies {
     compile name: 'SMSSDK-3.0.0', ext: 'aar'
     compile name: 'SMSSDKGUI-3.0.0', ext: 'aar'
     compile project(':lib:pingpp')
+    compile 'com.contrarywind:Android-PickerView:3.2.5'
 }

@@ -297,7 +297,7 @@ public class NewOrderActivity extends BaseActivity {
             @Override
             public void onClick(View v) {
 
-//                startActivityForResult(new Intent(NewOrderActivity.this , ShowConsigneeAdrActivity.class ) , Contents.REQUEST_ORDER_CONSIGNEE );
+                startActivityForResult(new Intent(NewOrderActivity.this , ShowConsigneeAdrActivity.class ) , Contents.REQUEST_ORDER_CONSIGNEE );
 
             }
         });

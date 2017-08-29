@@ -42,6 +42,8 @@
         <activity android:name=".activity.Register2Activity"></activity>
         <activity android:name=".activity.PayResultActivity"></activity>
         <activity android:name=".activity.NewOrderActivity"></activity>
+        <activity android:name=".activity.ShowConsigneeAdrActivity"></activity>
+        <activity android:name=".activity.EditeConsigneeAdrActivity"></activity>
 
         <!--shareSDK配置-->
         <activity

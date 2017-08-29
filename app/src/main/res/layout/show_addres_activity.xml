@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.cne_shop.widget.CnToolbar
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        android:minWidth="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:leftButtonIcon="@drawable/icon_back_32px"
+        app:title="收货地址"
+        android:titleTextColor="@color/white"
+        app:rightImageButtonIcon="@drawable/icon_add"
+        app:isShowSearchView="false"
+        ></com.example.cne_shop.widget.CnToolbar>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recycleView">
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>
