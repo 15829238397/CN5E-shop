@@ -8,6 +8,7 @@ import android.widget.Toast;
 
 import com.cjj.MaterialRefreshLayout;
 import com.example.cne_shop.R;
+import com.example.cne_shop.activity.WareDetialActivity;
 import com.example.cne_shop.adapter.HotAdapter;
 import com.example.cne_shop.base.BaseAdapter;
 import com.example.cne_shop.base.BaseFragment;
@@ -96,11 +97,11 @@ public class HotFragment extends BaseFragment {
                     addToCart(position) ;
                 }else {
 
-//                    Ware ware = mHotAdapter.getData(position);
-//                    Intent intent = new Intent(getActivity() , WareDetialActivity.class);
-//                    intent.putExtra(Contents.WARE , ware);
-//
-//                    startActivity(intent);
+                    Ware ware = mHotAdapter.getData(position);
+                    Intent intent = new Intent(getActivity() , WareDetialActivity.class);
+                    intent.putExtra(Contents.WARE , ware);
+
+                    startActivity(intent);
                 }
 
             }

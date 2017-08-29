@@ -10,6 +10,8 @@ import android.widget.TextView;
 
 import com.example.cne_shop.R;
 import com.example.cne_shop.activity.LoginActivity;
+import com.example.cne_shop.activity.MyOrderActivity;
+import com.example.cne_shop.activity.ShowConsigneeAdrActivity;
 import com.example.cne_shop.application.MyApplication;
 import com.example.cne_shop.base.BaseFragment;
 import com.example.cne_shop.bean.User;
@@ -95,7 +97,7 @@ public class MineFragment extends BaseFragment {
         my_orderList.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                startActivityWithLogin(new Intent(getContext() , MyOrderActivity.class) , true , MyApplication.START_NO_RESULT);
+                startActivityWithLogin(new Intent(getContext() , MyOrderActivity.class) , true , MyApplication.START_NO_RESULT);
             }
         });
 
@@ -110,7 +112,7 @@ public class MineFragment extends BaseFragment {
         my_consignee.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                startActivityWithLogin(new Intent(getContext() , ShowConsigneeAdrActivity.class ) , true , MyApplication.START_FOR_RESULT );
+                startActivityWithLogin(new Intent(getContext() , ShowConsigneeAdrActivity.class ) , true , MyApplication.START_FOR_RESULT );
             }
         });
     }
@@ -122,7 +124,4 @@ public class MineFragment extends BaseFragment {
         User user = MyApplication.getInstance().getUser() ;
         showUser(user) ;
     }
-
-
-
 }

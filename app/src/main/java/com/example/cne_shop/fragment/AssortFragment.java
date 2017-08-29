@@ -15,6 +15,7 @@ import com.daimajia.slider.library.SliderLayout;
 import com.daimajia.slider.library.SliderTypes.BaseSliderView;
 import com.daimajia.slider.library.SliderTypes.DefaultSliderView;
 import com.example.cne_shop.R;
+import com.example.cne_shop.activity.WareDetialActivity;
 import com.example.cne_shop.adapter.AssortFirstAdapter;
 import com.example.cne_shop.adapter.AssortShowAdapter;
 import com.example.cne_shop.base.BaseAdapter;
@@ -142,18 +143,18 @@ public class AssortFragment extends BaseFragment {
 
 
     private void addAssortShowAdapterListener(){
-//        assortShowAdapter.setOnItemClickListener(new BaseAdapter.onItemClickListener() {
-//            @Override
-//            public void onClick(View view, int position) throws Exception {
-//
-//                Ware ware = assortShowAdapter.getData(position);
-//                Intent intent = new Intent(getActivity() , WareDetialActivity.class);
-//                intent.putExtra(Contents.WARE , ware);
-//
-//                startActivity(intent);
-//
-//            }
-//        });
+        assortShowAdapter.setOnItemClickListener(new BaseAdapter.onItemClickListener() {
+            @Override
+            public void onClick(View view, int position) throws Exception {
+
+                Ware ware = assortShowAdapter.getData(position);
+                Intent intent = new Intent(getActivity() , WareDetialActivity.class);
+                intent.putExtra(Contents.WARE , ware);
+
+                startActivity(intent);
+
+            }
+        });
     }
 
     public void initFirstClassify(){

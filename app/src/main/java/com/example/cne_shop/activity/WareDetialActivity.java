@@ -16,6 +16,7 @@ import com.example.cne_shop.base.BaseActivity;
 import com.example.cne_shop.bean.ShoppingCart;
 import com.example.cne_shop.bean.Ware;
 import com.example.cne_shop.contents.Contents;
+import com.example.cne_shop.fragment.CartFragment;
 import com.example.cne_shop.utils.CartProvider;
 import com.example.cne_shop.utils.JsonUtil;
 import com.example.cne_shop.widget.CnToolbar;
@@ -150,17 +151,17 @@ public class WareDetialActivity extends BaseActivity {
         @JavascriptInterface
         public void buy(long id){
 
-//            Toast.makeText(mContext , "立即购买" , Toast.LENGTH_SHORT).show();
-//
-//            //去结算
-//            Intent intent = new Intent(WareDetialActivity.this , NewOrderActivity.class) ;
-//
-//            Log.d("----" ,"--------------mWare.getPrice()---------------" + mWare.getPrice()) ;
-//
-//            intent.putExtra( ShoppingBikeFragment.SUM_PRICE , Float.valueOf( mWare.getPrice() ) );
-//            intent.putExtra( ORDER_WARES ,getOrderWares() ) ;
-//
-//            startActivityWithLogin(intent , true , MyApplication.START_NO_RESULT);
+            Toast.makeText(mContext , "立即购买" , Toast.LENGTH_SHORT).show();
+
+            //去结算
+            Intent intent = new Intent(WareDetialActivity.this , NewOrderActivity.class) ;
+
+            Log.d("----" ,"--------------mWare.getPrice()---------------" + mWare.getPrice()) ;
+
+            intent.putExtra( CartFragment.SUM_PRICE , Float.valueOf( mWare.getPrice() ) );
+            intent.putExtra( ORDER_WARES ,getOrderWares() ) ;
+
+            startActivityWithLogin(intent , true , MyApplication.START_NO_RESULT);
 
         }
 
