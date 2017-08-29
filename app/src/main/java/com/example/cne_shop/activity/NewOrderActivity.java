@@ -289,7 +289,7 @@ public class NewOrderActivity extends BaseActivity {
         toOrderButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                startActivity(new Intent(NewOrderActivity.this , MyOrderActivity.class));
+                startActivity(new Intent(NewOrderActivity.this , MyOrderActivity.class));
             }
         });
 

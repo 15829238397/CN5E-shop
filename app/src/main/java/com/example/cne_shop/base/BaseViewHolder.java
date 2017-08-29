@@ -11,6 +11,7 @@ import android.widget.TextView;
 
 import com.example.cne_shop.widget.NumControlerView;
 import com.facebook.drawee.view.SimpleDraweeView;
+import com.lzy.ninegrid.NineGridView;
 
 
 /**
@@ -55,9 +56,9 @@ public class BaseViewHolder extends RecyclerView.ViewHolder implements View.OnCl
         return findView(resId) ;
     }
 
-//    public NineGridView findNineGridView(int resId){
-//        return findView(resId) ;
-//    }
+    public NineGridView findNineGridView(int resId){
+        return findView(resId) ;
+    }
 
     public RadioButton findRadioButton(int resId){
         return findView(resId) ;

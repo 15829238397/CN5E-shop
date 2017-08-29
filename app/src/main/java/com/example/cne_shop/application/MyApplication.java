@@ -7,9 +7,11 @@ import android.content.Intent;
 import android.graphics.Bitmap;
 import android.widget.ImageView;
 
+import com.example.cne_shop.R;
 import com.example.cne_shop.bean.User;
 import com.example.cne_shop.utils.UserLocalData;
 import com.facebook.drawee.backends.pipeline.Fresco;
+import com.lzy.ninegrid.NineGridView;
 import com.mob.MobApplication;
 import com.squareup.picasso.Picasso;
 
@@ -55,7 +57,7 @@ public class MyApplication extends MobApplication {
         this.myApplication = this ;
         initUser();
         Fresco.initialize(this);
-//        NineGridView.setImageLoader(new PicassoImageLoader());
+        NineGridView.setImageLoader(new PicassoImageLoader());
 
     }
 
@@ -93,20 +95,20 @@ public class MyApplication extends MobApplication {
     }
 
 
-//    /** Picasso 加载 */
-//    private class PicassoImageLoader implements NineGridView.ImageLoader {
-//
-//        @Override
-//        public void onDisplayImage(Context context, ImageView imageView, String url) {
-//            Picasso.with(context).load(url)//
-//                    .placeholder(R.drawable.ic_default_image)//
-//                    .error(R.drawable.ic_default_image)//
-//                    .into(imageView);
-//        }
-//
-//        @Override
-//        public Bitmap getCacheImage(String url) {
-//            return null;
-//        }
-//    }
+    /** Picasso 加载 */
+    private class PicassoImageLoader implements NineGridView.ImageLoader {
+
+        @Override
+        public void onDisplayImage(Context context, ImageView imageView, String url) {
+            Picasso.with(context).load(url)//
+                    .placeholder(R.drawable.ic_default_image)//
+                    .error(R.drawable.ic_default_image)//
+                    .into(imageView);
+        }
+
+        @Override
+        public Bitmap getCacheImage(String url) {
+            return null;
+        }
+    }
 }
